@@ -4,7 +4,7 @@ const CssMinimizerPlugin = require( 'css-minimizer-webpack-plugin' );
 const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: './app/src/index.js',
 	output: {
 		path: path.resolve( __dirname, './app/build' ),

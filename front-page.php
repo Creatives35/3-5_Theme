@@ -621,63 +621,72 @@
             <div class="row testimonial-swiper-container">
               <div class="swiper testimonial-swiper">
                 <div class="swiper-wrapper">
-                  <div data-hash="slide10" class="swiper-slide">
+                  <div data-hash="slide-11" class="swiper-slide">
                     <div class="testimonial-card">
                     <div class="testimonial-profile-shot">
                       <img src="<?php echo get_theme_file_uri('/app/build/08ef55fa35a1fdb64c41.png') ?>" alt="Testimonial Headshot">
                     </div>
                     <div class="testimonial-quote">
                       <p>
-                        “The team at 3:5 Creatives helped us skyrocket our online presence and drive real business growth. We couldn’t be happier with the results!”
-                      </p>
+                      3:5 Creative[s] has been a pleasure to work with. Their team made the process so easy. They
+                      provided great guidance and recommendations to fulfill my expectations for my book cover design.
+                      I’m beyond satisfied with the results and service. They have been so patient and pleasant. I will
+                      recommend them to anyone who needs any design work. </p>
                     </div>
                     <div class="testimonial-name">
-                      <p>- Sean Wright</p>
+                      <p>- Gabriel Lightner</p>
                     </div>
                   </div>
                   </div>
-                  <div data-hash="slide11" class="swiper-slide">
+                  <div data-hash="slide-12" class="swiper-slide">
                     <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
-                      <img src="<?php echo get_theme_file_uri('/app/build/08ef55fa35a1fdb64c41.png') ?>" alt="Testimonial Headshot">
+                      <img src="<?php echo get_theme_file_uri('app/src/images/testimonial-tim.png') ?>" alt="Testimonial Headshot">
                       </div>
                       <div class="testimonial-quote">
                         <p>
-                          3:5 creative has been a pleasure. The team made the process so easy. They provided great guidance
-                          and recommendations to fulfill my expectations. I’m beyond satisfied with the results and service.
-                          They have been so patient and pleasant. I will recommend them to anyone who is in need of any
-                          design.
+                          The total team approach that I have experienced while working with 3:5 Creatives has been
+                          smooth, effective, and engaging. They’ve listened to my team and quickly understood what we’re
+                          trying to do. But more importantly, 3:5 have creatively developed a communication strategy that
+                          not only exceeded our expectations but also helped us expand our original vision for our
+                          product.
                         </p>
+                      </div>
+                      <div class="testimonial-name">
+                        <p>- Tim Koehler</p>
                       </div>
                     </div>
                   </div>
-                  <div data-hash="slide12" class="swiper-slide">
+                  <div data-hash="slide-13" class="swiper-slide">
                     <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
-                      <img src="<?php echo get_theme_file_uri('/app/build/08ef55fa35a1fdb64c41.png') ?>" alt="Testimonial Headshot">
+                      <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-andrew.png') ?>" alt="Testimonial Headshot">
                       </div>
                       <div class="testimonial-quote">
                         <p>
-                          3:5 creative has been a pleasure. The team made the process so easy. They provided great guidance
-                          and recommendations to fulfill my expectations. I’m beyond satisfied with the results and service.
-                          They have been so patient and pleasant. I will recommend them to anyone who is in need of any
-                          design.
+                        "With the positive energy of their team and their technical prowess, 3:5 reflected back to me
+                        the potential of my nascent business and gave me the deliverables to attract the clients I was
+                        seeking. Full of confidence and care, this outfit partners with you to hone and manifest your
+                        vision."
                         </p>
+                      </div>
+                      <div class="testimonial-name">
+                        <p>- Andrew Forsthoefel  </p>
                       </div>
                     </div>
                   </div>
-                  <div data-hash="slide4" class="swiper-slide">
+                  <div data-hash="slide-14" class="swiper-slide">
                     <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
-                      <img src="<?php echo get_theme_file_uri('/app/build/08ef55fa35a1fdb64c41.png') ?>" alt="Testimonial Headshot">
+                      <img src="<?php echo get_theme_file_uri('app/src/images/testimonial-sean.png') ?>" alt="Testimonial Headshot">
                       </div>
                       <div class="testimonial-quote">
                         <p>
-                          3:5 creative has been a pleasure. The team made the process so easy. They provided great guidance
-                          and recommendations to fulfill my expectations. I’m beyond satisfied with the results and service.
-                          They have been so patient and pleasant. I will recommend them to anyone who is in need of any
-                          design.
+                        “The team at 3:5 Creatives helped us skyrocket our online presence and drive real business growth. We couldn’t be happier with the results!”
                         </p>
+                      </div>
+                      <div class="testimonial-name">
+                        <p>- Sean Wright</p>
                       </div>
                     </div>
                   </div>

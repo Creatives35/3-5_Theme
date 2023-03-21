@@ -1,5 +1,5 @@
-import Swiper, { Navigation, HashNavigation, Pagination } from 'swiper';
-Swiper.use( [ Navigation, HashNavigation, Pagination ] );
+import Swiper, { Navigation, HashNavigation, Pagination, breakpoints } from 'swiper';
+Swiper.use( [ Navigation, HashNavigation, Pagination, breakpoints ] );
 
 ( function() {
 	initilizeResults();

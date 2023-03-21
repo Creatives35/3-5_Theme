@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import Swiper, { Navigation, Pagination, HashNavigation } from 'swiper';
-Swiper.use( [ Navigation, Pagination, HashNavigation ] );
+import Swiper, { Navigation, Pagination, HashNavigation, breakpoints } from 'swiper';
+Swiper.use( [ Navigation, Pagination, HashNavigation, breakpoints ] );
 
 ( function() {
 	const testimonialSwiper = new Swiper( '.testimonial-swiper', {
@@ -16,6 +16,13 @@ Swiper.use( [ Navigation, Pagination, HashNavigation ] );
 		},
 		pagination: {
 			el: '.testimonial-pagination',
+		},
+		breakpoints: {
+			992: {
+				hashNavigation: {
+					watchState: false,
+				},
+			},
 		},
 	} );
 }() );

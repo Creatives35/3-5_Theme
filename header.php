@@ -45,7 +45,7 @@
                   <ul id="menu-primary-menu" class="menu-list">
                     <li
                       class="fas fa-home ">
-                      <a href="#">Home</a>
+                      <a href="<?php echo site_url()?>">Home</a>
                     </li>
                     <li 
                       class="fas fa-laptop-house ">
@@ -55,26 +55,26 @@
                       class="fas fa-mail-bulk ">
                       <a href="#">Services</a>
                     </li>
-                    <li
+                    <!-- <li
                       class="fas fa-user-check ">
                       <a href="#">Referral</a>
-                    </li>
+                    </li> -->
                   </ul>
                   <div class="social-media-holder">
                     <div class="header-social-icon header-social-icon-0 ladder">
                       <a target="_blank" href="https://www.facebook.com/35creatives">
-                      </a>
-					  <img src=<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?> alt="Facebook Icon" class="filter-white">
+                      <img src=<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?> alt="Facebook Icon" class="filter-white">
+                    </a>
                     </div>
                     <div class="header-social-icon header-social-icon-1 ladder">
                       <a target="_blank" href="https://www.linkedin.com/company/35creatives/">
-                      </a>
-					  <img src=<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?> alt="LinkedIn Icon" class="filter-white">
+                      <img src=<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?> alt="LinkedIn Icon" class="filter-white">
+                    </a>
                     </div>
                     <div class="header-social-icon header-social-icon-2 ladder">
                       <a target="_blank" href="https://www.instagram.com/35creatives/">
-                      </a>
-					  <img src=<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg') ?> alt="Instagram Icon" class="filter-white">
+                      <img src=<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg') ?> alt="Instagram Icon" class="filter-white">
+                    </a>
                     </div>
                     <div class="header-social-icon header-social-icon-3 ladder">
                       <a target="_blank" href="https://www.youtube.com/channel/UClPSAgxW4Lb3VTMRxE9V9nw">

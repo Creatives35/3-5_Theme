@@ -1,5 +1,5 @@
-import Swiper, { Navigation, Pagination, EffectFade, HashNavigation } from 'swiper';
-Swiper.use( [ Navigation, Pagination, EffectFade, HashNavigation ] );
+import Swiper, { Navigation, Pagination, EffectFade, HashNavigation, breakpoints } from 'swiper';
+Swiper.use( [ Navigation, Pagination, EffectFade, HashNavigation, breakpoints ] );
 
 ( function() {
 	initilizeServices();
