@@ -5,12 +5,12 @@
           <div class="side-menu-overlay"></div>
           <div class="side-menu-pop-up">
             <div class="side-menu-text-container">
-              <a target="_blank" href="https://drive.google.com/file/d/1gBeB3WSh6muAir7TD5daIS-bEcAv4UY0/view">
+              <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
                 Case Studies Step Into 3:5 Capablilities
               </a>
             </div>
             <div class="side-menu-image-container">
-              <a target="_blank" href="https://drive.google.com/file/d/1gBeB3WSh6muAir7TD5daIS-bEcAv4UY0/view">
+            <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
                 <img src=<?php echo get_theme_file_uri('/app/build/49c7e73434bae60c5ed2.png') ?> alt="3:5 Capablilities">
               </a>
             </div>
@@ -47,7 +47,7 @@
                             <h1><span>Transforming</span> Business</h1>
                             <h3>With <span class="underline">Unparalleled</span> <span class="charter" style="font-weight: 400;">Strategy</span></h3>
                             <br>
-                            <a href="#" class="btn btn-lg btn-primary rounded-pill">
+                            <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
                                 Schedule A Consultation
                             </a>
                         </div>
@@ -180,7 +180,7 @@
             </div>
             <div class="row button-container">
               <div class="col">
-                <a href="#" class="btn btn-lg btn-primary rounded-pill">
+                <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
                   Drive Traffic, Increase Sales
                 </a>
               </div>
@@ -447,7 +447,7 @@
                   </div>
                 </div>
                 <div class="button-container">
-                  <a target="_blank" href="https://drive.google.com/file/d/1gBeB3WSh6muAir7TD5daIS-bEcAv4UY0/view" class="btn btn-lg btn-secondary rounded-pill">
+                  <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>" class="btn btn-lg btn-secondary rounded-pill">
                     View Case Studies
                   </a>
                 </div>
@@ -605,7 +605,7 @@
           </div>
         </div>
         <div class="button-container">
-          <a href="#" class="btn btn-lg btn btn-secondary rounded-pill">
+          <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn btn-secondary rounded-pill">
             Let's Talk
           </a>
         </div>
@@ -828,7 +828,7 @@
             </div>
           </div>
           <div class="button-container">
-            <a href="#" class="btn btn-lg btn-secondary rounded-pill">
+            <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-secondary rounded-pill">
               Request A Quote Now
             </a>
           </div>

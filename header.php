@@ -49,11 +49,11 @@
                     </li>
                     <li 
                       class="fas fa-laptop-house ">
-                      <a href="#">Work</a>
+                      <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a>
                     </li>
                     <li 
                       class="fas fa-mail-bulk ">
-                      <a href="#">Services</a>
+                      <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Services</a>
                     </li>
                     <!-- <li
                       class="fas fa-user-check ">

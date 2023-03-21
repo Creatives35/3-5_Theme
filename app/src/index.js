@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import * as bootstrap from 'bootstrap';
-import './scss/header.scss';
-import './scss/footer.scss';
 import './scss/homepage.scss';
+import './scss/header.scss';
 import './scss/heroNavigation.scss';
+import './scss/footer.scss';
 import './modules/swiper/servicesSwiper';
 import './modules/swiper/resultsSwiper';
 import './modules/swiper/testimonialSwiper';

@@ -16,7 +16,7 @@
           <div class="container-fluid mobile-referral-container">
             <div class="row mobile-referral">
               <div class="col-6 col-sm-6">
-                  <a href="#" class="btn btn-small btn-primary rounded-pill">
+                  <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-small btn-primary rounded-pill">
                     Book A Free Strategy Session
                   </a>
               </div>
@@ -35,16 +35,16 @@
               </div>
               <div class="col col-4 col-sm-4 col-md-3 col-lg-4 col-xl-2 page-links">
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Work</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Our Stories</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="<?php echo site_url()?>" >Home</a></li>
+                  <li><a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a></li>
+                  <li><a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Services</a></li>
+                  <!-- <li><a href="#">Our Stories</a></li>
+                  <li><a href="#">Contact</a></li> -->
                 </ul>
               </div>
               <div class="col col-8 col-sm-8 col-md-6 col-lg-3 col-xl-2 contact-info">
                 <ul class="contact-list">
-                  <li><a href="#">
+                  <li><a href="https://goo.gl/maps/cjXUx89zyfu3feHF8">
                     <div class="left-side">
                       <img width="15px" src="<?php echo get_theme_file_uri('/app/build/cdc7a9a696c62c105802.png') ?>" alt="location icon">
                     </div>
@@ -54,7 +54,7 @@
                       Bronx, NY 10451
                     </div>
                   </a></li>
-                  <li><a href="#">
+                  <li><a href="tel:6788982485">
                     <div class="left-side">
                       <img width="15px" src="<?php echo get_theme_file_uri('/app/build/ed2fb05ab0bd618ae83c.png') ?>" alt="phone icon">
                     </div>
@@ -62,7 +62,7 @@
                       (678) 898-2485
                     </div>
                   </a></li>
-                  <li><a href="#">
+                  <li><a href="mailto:marketing@35creatives.com">
                     <div class="left-side">
                       <img width="15px" src="<?php echo get_theme_file_uri('/app/build/4b9c997af117099367dc.png') ?>" alt="mail icon">
                     </div>
@@ -72,13 +72,13 @@
                   </a></li>
                 </ul>
                 <ul class="social-media-mobile">
-                  <li><a href="https://www.instagram.com/35creatives/">
+                  <li><a target="_blank" href="https://www.instagram.com/35creatives/">
                     <img width="20px" src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg') ?>" alt="Instagram icon">
                   </a></li>
-                  <li><a href="https://www.linkedin.com/company/35creatives/">
+                  <li><a target="_blank" href="https://www.linkedin.com/company/35creatives/">
                     <img width="20px" src="<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?>" alt="LinkedIn icon">
                   </a></li>
-                  <li><a href="https://www.facebook.com/35creatives">
+                  <li><a target="_blank" href="https://www.facebook.com/35creatives">
                     <img width="20px" src="<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?>" alt="Facebook icon">
                   </a></li>
                 </ul>
@@ -86,24 +86,24 @@
               <div class="col col-lg-12 col-xl-6 desktop-referral-container">
                 <h6>Refer A Friend! And enjoy up to $275 off your next project.</h6>
                 <ul class="social-media-desktop">
-                  <li><a href="https://www.instagram.com/35creatives/">
+                  <li><a target="_blank" href="https://www.instagram.com/35creatives/">
                     <img width="25px" src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg ') ?>"alt="Instagram icon">
                   </a></li>
-                  <li><a href="https://www.linkedin.com/company/35creatives/">
+                  <li><a target="_blank" href="https://www.linkedin.com/company/35creatives/">
 				  <img width="20px" src="<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?>" alt="LinkedIn icon">
                   </a></li>
-                  <li><a href="https://www.facebook.com/35creatives">
+                  <li><a  target="_blank" href="https://www.facebook.com/35creatives">
 				  <img width="20px" src="<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?>" alt="Facebook icon">
                   </a></li>
                 </ul>
                 <div class="buttons-container">
                   <div class="first-button">
-                    <a href="#" class="btn btn-lg btn-light rounded-pill">
+                    <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-light rounded-pill">
                       $275 Off !
                     </a>
                   </div>
                   <div class="second-button">
-                    <a href="#" class="btn btn-lg btn-light rounded-pill">
+                    <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-light rounded-pill">
                       Book A Free Strategy Session
                     </a>
                   </div>
@@ -111,13 +111,13 @@
               </div>
               <div class="col-12 col-sm-12 col-lg-12 footer-logos-container">
                 <ul class="social-media-tablet-horizontal">
-                  <li><a href="https://www.instagram.com/35creatives/">
+                  <li><a target="_blank" href="https://www.instagram.com/35creatives/">
 				  <img width="25px" src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg ') ?>"alt="Instagram icon">
                   </a></li>
-                  <li><a href="https://www.linkedin.com/company/35creatives/">
+                  <li><a target="_blank" href="https://www.linkedin.com/company/35creatives/">
 				  <img src=<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?> alt="LinkedIn Icon" class="filter-white">
                   </a></li>
-                  <li><a href="https://www.facebook.com/35creatives">
+                  <li><a target="_blank" href="https://www.facebook.com/35creatives">
 				  <img src=<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?> alt="Facebook Icon" class="filter-white">
                   </a></li>
                 </ul>
