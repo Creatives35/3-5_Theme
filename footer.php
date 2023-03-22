@@ -30,8 +30,8 @@
             <div class="container">
               <div class="row text-container">
               <div class="col col-12 col-sm-12 col-md-3 col-lg-4 col-xl-2 logo-container">
-                <img class='mobile-logo filter-white' src="<?php echo get_theme_file_uri('/app/build/c75012287636ca5350a0.png') ?>" alt="3:5 Creative[s] Logo">
-                <img class="desktop-logo filter-white" src="<?php echo get_theme_file_uri('/app/build/f62928a3bdd2f185062d.png') ?>" alt="3:5 Creative[s] Logo" class="35-logo filter-white">
+                <img class='mobile-logo filter-white' src="<?php echo get_theme_file_uri('/app/src/logos/3-5-logos/35-creatives-logo.png') ?>" alt="3:5 Creative[s] Logo">
+                <img class="desktop-logo filter-white" src="<?php echo get_theme_file_uri('/app/src/logos/3-5-logos/35symbol_logo.png') ?>" alt="3:5 Creative[s] Logo" class="35-logo filter-white">
               </div>
               <div class="col col-4 col-sm-4 col-md-3 col-lg-4 col-xl-2 page-links">
                 <ul>
@@ -46,7 +46,7 @@
                 <ul class="contact-list">
                   <li><a href="https://goo.gl/maps/cjXUx89zyfu3feHF8">
                     <div class="left-side">
-                      <img width="15px" src="<?php echo get_theme_file_uri('/app/build/cdc7a9a696c62c105802.png') ?>" alt="location icon">
+                      <img width="15px" src="<?php echo get_theme_file_uri('/app/src/icons/location-pin.png') ?>" alt="location icon">
                     </div>
                     <div class="right-side">
                       ​​15 Canal Pl #301
@@ -56,7 +56,7 @@
                   </a></li>
                   <li><a href="tel:6788982485">
                     <div class="left-side">
-                      <img width="15px" src="<?php echo get_theme_file_uri('/app/build/ed2fb05ab0bd618ae83c.png') ?>" alt="phone icon">
+                      <img width="15px" src="<?php echo get_theme_file_uri('/app/src/icons/phone-icon.png') ?>" alt="phone icon">
                     </div>
                     <div class="right-side">
                       (678) 898-2485
@@ -64,7 +64,7 @@
                   </a></li>
                   <li><a href="mailto:marketing@35creatives.com">
                     <div class="left-side">
-                      <img width="15px" src="<?php echo get_theme_file_uri('/app/build/4b9c997af117099367dc.png') ?>" alt="mail icon">
+                      <img width="15px" src="<?php echo get_theme_file_uri('/app/src/icons/mail.png') ?>" alt="mail icon">
                     </div>
                     <div class="right-side">
                       marketing@35creatives.com
@@ -73,13 +73,13 @@
                 </ul>
                 <ul class="social-media-mobile">
                   <li><a target="_blank" href="https://www.instagram.com/35creatives/">
-                    <img width="20px" src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg') ?>" alt="Instagram icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/instagram.svg') ?> alt="Instagram Icon" class="filter-white">
                   </a></li>
                   <li><a target="_blank" href="https://www.linkedin.com/company/35creatives/">
-                    <img width="20px" src="<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?>" alt="LinkedIn icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/linkedin.svg') ?> alt="LinkedIn Icon" class="filter-white">
                   </a></li>
                   <li><a target="_blank" href="https://www.facebook.com/35creatives">
-                    <img width="20px" src="<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?>" alt="Facebook icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/facebook.svg') ?> alt="Facebook Icon" class="filter-white">
                   </a></li>
                 </ul>
               </div>
@@ -87,13 +87,13 @@
                 <h6>Refer A Friend! And enjoy up to $275 off your next project.</h6>
                 <ul class="social-media-desktop">
                   <li><a target="_blank" href="https://www.instagram.com/35creatives/">
-                    <img width="25px" src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg ') ?>"alt="Instagram icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/instagram.svg') ?> alt="Instagram Icon" class="filter-white">
                   </a></li>
                   <li><a target="_blank" href="https://www.linkedin.com/company/35creatives/">
-				  <img width="20px" src="<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?>" alt="LinkedIn icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/linkedin.svg') ?> alt="LinkedIn Icon" class="filter-white">
                   </a></li>
                   <li><a  target="_blank" href="https://www.facebook.com/35creatives">
-				  <img width="20px" src="<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?>" alt="Facebook icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/facebook.svg') ?> alt="Facebook Icon" class="filter-white">
                   </a></li>
                 </ul>
                 <div class="buttons-container">
@@ -112,19 +112,19 @@
               <div class="col-12 col-sm-12 col-lg-12 footer-logos-container">
                 <ul class="social-media-tablet-horizontal">
                   <li><a target="_blank" href="https://www.instagram.com/35creatives/">
-				  <img width="25px" src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg ') ?>"alt="Instagram icon">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/instagram.svg') ?> alt="Instagram Icon" class="filter-white">
                   </a></li>
                   <li><a target="_blank" href="https://www.linkedin.com/company/35creatives/">
-				  <img src=<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg') ?> alt="LinkedIn Icon" class="filter-white">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/linkedin.svg') ?> alt="LinkedIn Icon" class="filter-white">
                   </a></li>
                   <li><a target="_blank" href="https://www.facebook.com/35creatives">
-				  <img src=<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg') ?> alt="Facebook Icon" class="filter-white">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/facebook.svg') ?> alt="Facebook Icon" class="filter-white">
                   </a></li>
                 </ul>
                   <div class="logos">
-                    <img src="<?php echo get_theme_file_uri('/app/build/80600862299d2cbb1940.png') ?>" alt="Google Reviews Logo">
-                    <img src="<?php echo get_theme_file_uri('/app/build/d297d72818aefdd26224.png') ?>" alt="BNI Logo">
-                    <img src="<?php echo get_theme_file_uri('/app/build/0592f2de12d8d81e0e32.jpeg') ?>"alt="Google Reviews Logo">
+                    <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/google_reviews.png') ?>" alt="Google Reviews Logo">
+                    <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/bni.png') ?>" alt="BNI Logo">
+                    <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/goldman_sachs.jpeg') ?>"alt="Goldman Sachs Logo">
                   </div>
               </div>
             </div>

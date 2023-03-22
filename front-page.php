@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-<div class="preloader">
-  <div class="loader"></div>
-</div>
 <section class="hero home-hero ">
         <section class="pop-up">
           <div class="side-menu-overlay"></div>
@@ -14,7 +11,7 @@
             </div>
             <div class="side-menu-image-container">
             <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
-                <img src=<?php echo get_theme_file_uri('/app/build/49c7e73434bae60c5ed2.png') ?> alt="3:5 Capablilities">
+                <img src=<?php echo get_theme_file_uri('/app/src/images/case-studies.png') ?> alt="3:5 Capablilities">
               </a>
             </div>
           </div>
@@ -24,22 +21,22 @@
             <ul class="nav hero-nav flex-column">
                 <li class="nav-item nav-item-social">
                   <a target="_blank" class="nav-link" href="https://www.instagram.com/35creatives/">
-                    <img src="<?php echo get_theme_file_uri('/app/build/9357d33cfa9784ac7693.svg')?>" alt="Instagram Icon" class="filter-white">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/instagram.svg') ?> alt="Instagram Icon" class="filter-white">
                   </a>
                 </li>
                 <li class="nav-item nav-item-social">
                   <a target="_blank" class="nav-link" href="https://www.linkedin.com/company/35creatives/">
-                    <img src="<?php echo get_theme_file_uri('/app/build/ad8e6ea2f67a663186c9.svg')?>" alt="LinkedIn Icon" class="filter-white">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/linkedin.svg') ?> alt="LinkedIn Icon" class="filter-white">
                   </a>
                 </li>
                 <li class="nav-item nav-item-social">
                   <a target="_blank" class="nav-link" href="https://www.facebook.com/35creatives">
-                    <img src="<?php echo get_theme_file_uri('/app/build/abf497610b49db7baa31.svg')?>" alt="Facebook Icon" class="filter-white">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/facebook.svg') ?> alt="Facebook Icon" class="filter-white">
                   </a>
                 </li>
                 <li id="side-nav-menu-icon" class="nav-item">
                   <a class="nav-link" href="#">
-                    <img src="<?php echo get_theme_file_uri('/app/build/6d49be0eb3790dfca3e5.png')?>" alt="Menu Icon" class="filter-white">
+                  <img src=<?php echo get_theme_file_uri('/app/src/icons/menu-icon.png') ?> alt="Menu Icon" class="filter-white">
                   </a>
                 </li>
               </ul>
@@ -55,13 +52,13 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-xl-5 justify-content-end ">
-                            <img src="<?php echo get_theme_file_uri('/app/build/088cb4d22c919435ff14.gif')?>" alt="Launch your Business Image" class="landing-page-image">
+                            <img src="<?php echo get_theme_file_uri('/app/src/images/35_Animated Graphic.gif')?>" alt="Launch your Business Image" class="hero-image">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="scroll-bar-icon-container  animate__fadeInDown animate__delay-2s">
-            <img src=<?php echo get_theme_file_uri('/app/src/icons/scroll-bar.svg') ?> alt="scroll-bar-icon">
+            <img src=<?php echo get_theme_file_uri('/app/src/icons/mouse-icon.svg') ?> alt="mouse-icon">
 
             </div>
         </div>
@@ -101,7 +98,7 @@
                     </div>
                     <div class="our-philosophy col-sm-12 col-xl-5">
                       <div class="container philosophy-cards-images">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/e712a412710ffaa41f4e.png') ?>" alt="Our Philosophy Diagram">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/images/illustration.png') ?>" alt="Our Philosophy Diagram">
                       </div>
                     </div>
                   </div>
@@ -129,26 +126,26 @@
             </div>
             <div class="row marketing-icons-container-mobile">
               <div class="col marketing-icon">
-                <img  src="<?php echo get_theme_file_uri('/app/build/c017729f68dd84cc8bd8.png') ?>" alt="Money Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/money.png') ?>" alt="Money Icon">
                 <p>Proven Results</p>
               </div>
               <div class="col marketing-icon">
-                <img  src="<?php echo get_theme_file_uri('/app/build/c335be23b88bfe4a0339.png') ?>" alt="Data Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/data.png') ?>" alt="Data Icon">
                 <p>Data Driven Approach</p>
               </div>
               <div class="col marketing-icon">
-                <img  src="<?php echo get_theme_file_uri('/app/build/7cce6d8dd410cd7f2ac3.png') ?>" alt="Expert Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/expert.png') ?>" alt="Expert Icon">
                 <p>Expert Team</p>
               </div>
               <div class="col marketing-icon">
-                <img  src="<?php echo get_theme_file_uri('/app/build/119dddadac422bffc4e7.png') ?>" alt="Personalized Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/personalized.png') ?>" alt="Personalized Icon">
                 <p>Personalized Solutions</p>
               </div>
             </div>
             <div class="row marketing-icons-container-desktop">
               <div class="marketing-icon">
                 <div class="icon-container">
-                  <img  src="<?php echo get_theme_file_uri('/app/build/c017729f68dd84cc8bd8.png') ?>" alt="Money Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/money.png') ?>" alt="Money Icon">
                 </div>
                 <div class="icon-text">
                   <b>Proven Results:</b> We have a track record of delivering real business growth for our clients.
@@ -156,7 +153,7 @@
               </div>
               <div class="marketing-icon">
                 <div class="icon-container">
-                  <img src="<?php echo get_theme_file_uri('/app/build/c335be23b88bfe4a0339.png') ?>" alt="Data Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/data.png') ?>" alt="Data Icon">
                 </div>
                 <div class="icon-text">
                   <b>Data-Driven Approach:</b> We use data to inform every decision we make, ensuring the best possible outcome
@@ -165,7 +162,7 @@
               </div>
               <div class="marketing-icon">
                 <div class="icon-container">
-                  <img src="<?php echo get_theme_file_uri('/app/build/7cce6d8dd410cd7f2ac3.png') ?>" alt="Expert Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/expert.png') ?>" alt="Expert Icon">
                 </div>
                 <div class="icon-text">
                   <b>Expert Team:</b> Our team is comprised of experienced marketing professionals who are passionate about their work.
@@ -173,7 +170,7 @@
               </div>
               <div class="marketing-icon">
                 <div class="icon-container">
-                  <img  src="<?php echo get_theme_file_uri('/app/build/119dddadac422bffc4e7.png') ?>" alt="Personalized Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/personalized.png') ?>" alt="Personalized Icon">
                 </div>
                 <div class="icon-text">
                   <b>Personalized Solutions:</b> We take the time to understand your unique business goals and craft solutions that are 
@@ -228,7 +225,7 @@
                   <div class="swiper-wrapper">
                     <div data-hash="slide1" class="swiper-slide">
                       <div class="card-header">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                         <h6>Branding</h6>
                       </div>
                       <div class="card-body">
@@ -246,7 +243,7 @@
                     </div>
                     <div data-hash="slide2" class="swiper-slide">
                       <div class="card-header">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/3b45bc0da8cba0d1cab5.png') ?>" alt="Web Design & Development Icon">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/icons/web-dev.png') ?>" alt="Web Design & Development Icon">
                         <h6>Digital Design</h6>
                       </div>
                       <div class="card-body">
@@ -262,7 +259,7 @@
                     </div>
                     <div data-hash="slide3" class="swiper-slide">
                       <div class="card-header">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/358157f44ec5390d71ee.png') ?>" alt="Digital Marketing Icon">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/icons/digital-marketing.png') ?>" alt="Digital Marketing Icon">
                         <h6>Marketing</h6>
                       </div>
                       <div class="card-body">
@@ -280,7 +277,7 @@
                     </div>
                     <div data-hash="slide4" class="swiper-slide">
                       <div class="card-header">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/128e9802bd839ceb1cde.png') ?>" alt="Social Media Management Icon">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/icons/social-media.png') ?>" alt="Social Media Management Icon">
                         <h6>Social Media</h6>
                       </div>
                       <div class="card-body">
@@ -297,7 +294,7 @@
                     </div>
                     <div data-hash="slide5" class="swiper-slide">
                       <div class="card-header">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/6ceeccd5d6de142184ff.png') ?>" alt="Content Creation Icon">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/icons/content-creation.png') ?>" alt="Content Creation Icon">
                         <h6>Content Creation</h6>
                       </div>
                       <div class="card-body">
@@ -315,7 +312,7 @@
                     </div>
                     <div data-hash="slide6" class="swiper-slide">
                       <div class="card-header">
-                        <img  src="<?php echo get_theme_file_uri('/app/build/7b95cbe7ee1890ec7675.png') ?>" alt="Content Creation Icon">
+                        <img  src="<?php echo get_theme_file_uri('/app/src/icons/event.png') ?>" alt="Experimental Icon">
                         <h6>Experimental Events</h6>
                       </div>
                       <div class="card-body">
@@ -342,7 +339,7 @@
                 <div class="row first-row">
                   <div class="col">
                     <div class="card-header">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                       <h6>Branding</h6>
                     </div>
                     <div class="card-body">
@@ -360,7 +357,7 @@
                   </div>
                   <div class="col">
                     <div class="card-header">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/3b45bc0da8cba0d1cab5.png') ?>" alt="Web Design & Development Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/web-dev.png') ?>" alt="Web Design & Development Icon">
                       <h6>Digital Design</h6>
                     </div>
                     <div class="card-body">
@@ -377,7 +374,7 @@
                   </div>
                   <div class="col">
                     <div class="card-header">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/358157f44ec5390d71ee.png') ?>" alt="Digital Marketing Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/digital-marketing.png') ?>" alt="Digital Marketing Icon">
                       <h6>Marketing</h6>
                     </div>
                     <div class="card-body">
@@ -397,7 +394,7 @@
                 <div class="row second-row">
                   <div class="col">
                     <div class="card-header">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/7b95cbe7ee1890ec7675.png') ?>"alt="Content Creation Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/event.png') ?>" alt="Experimental Icon">
                       <h6>Experimental Events</h6>
                     </div>
                     <div class="card-body">
@@ -414,7 +411,7 @@
                   </div>
                   <div class="col">
                     <div class="card-header">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/6ceeccd5d6de142184ff.png') ?>" alt="Content Creation Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/content-creation.png') ?>" alt="Content Creation Icon">
                       <h6>Content Creation</h6>
                     </div>
                     <div class="card-body">
@@ -433,7 +430,7 @@
                   </div>
                   <div class="col">
                     <div class="card-header">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/128e9802bd839ceb1cde.png') ?>" alt="Social Media Management Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/social-media.png') ?>" alt="Social Media Management Icon">
                       <h6>Social Media</h6>
                     </div>
                     <div class="card-body">
@@ -480,7 +477,7 @@
                   </div>
                   <div class="col-sm-4 right-side animate__animated">
                     <div class="image-container">
-                      <img  src="<?php echo get_theme_file_uri('/app/build/09c5402346007d592ec9.png') ?>"alt="Grit City Mockup">
+                      <img  src="<?php echo get_theme_file_uri('app/src/images/grit-city-mobile-mockup.png') ?>"alt="Grit City Mockup">
                     </div>
                   </div>
                 </div>
@@ -502,11 +499,11 @@
                 <div data-hash="slide7" class="swiper-slide">
                   <div class="card">
                   <div class="card-header">
-                    <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                  <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                     <h6>E-Commerce Brand</h6>
                   </div>
                   <div class="card-body">
-                    <img width="15px" src="<?php echo get_theme_file_uri('/app/build/d006e0b5402a9c63611e.png') ?>" alt="Arrow Up Icon">
+                  <img width="25px" src="<?php echo get_theme_file_uri('/app/src/icons/triangle.png') ?>" alt="Arrow Up Icon">
                     <p class="percentage">793%</p>
                   </div>
                   <div class="card-footer">
@@ -517,11 +514,11 @@
                 <div data-hash="slide8" class="swiper-slide">
                   <div class="card">
                     <div class="card-header">
-                    <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                       <h6>Local Restaurant</h6>
                     </div>
                     <div class="card-body">
-                    <img width="15px" src="<?php echo get_theme_file_uri('/app/build/d006e0b5402a9c63611e.png') ?>" alt="Arrow Up Icon">
+                    <img width="25px" src="<?php echo get_theme_file_uri('/app/src/icons/triangle.png') ?>" alt="Arrow Up Icon">
                       <p class="percentage">650%</p>
                     </div>
                     <div class="card-footer">
@@ -532,11 +529,11 @@
                 <div data-hash="slide9" class="swiper-slide">
                   <div class="card">
                     <div class="card-header">
-                    <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                    <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                       <h6>Service Business</h6>
                     </div>
                     <div class="card-body">
-                    <img width="15px" src="<?php echo get_theme_file_uri('/app/build/d006e0b5402a9c63611e.png') ?>" alt="Arrow Up Icon">
+                    <img width="25px" src="<?php echo get_theme_file_uri('/app/src/icons/triangle.png') ?>" alt="Arrow Up Icon">
                       <p class="percentage">400%</p>
                     </div>
                     <div class="card-footer">
@@ -555,14 +552,14 @@
         <div class="container desktop-results">
           <div class="row">
             <div class="col-lg-4">
-              <img class="blob-image blob-2" src="<?php echo get_theme_file_uri('/app/build/9136a691e471dd83f254.png') ?>" alt="result card background">
+              <img class="blob-image blob-2" src="<?php echo get_theme_file_uri('app/src/images/Blob_2.png') ?>" alt="result card background">
               <div class="card">
                 <div class="card-header">
-                  <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                   <h6>Service Business</h6>
                 </div>
                 <div class="card-body">
-                  <img width="25px" src="<?php echo get_theme_file_uri('/app/build/d006e0b5402a9c63611e.png') ?>" alt="Arrow Up Icon">
+                  <img width="25px" src="<?php echo get_theme_file_uri('/app/src/icons/triangle.png') ?>" alt="Arrow Up Icon">
                   <p id="percentage-1" class="percentage" data-val="400"></p>
                 </div>
                 <div class="card-footer">
@@ -574,14 +571,14 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <img class="blob-image blob-1" src="<?php echo get_theme_file_uri('/app/build/8d997a75909cdf98ec42.png') ?>" alt="result card background">
+            <img class="blob-image blob-1" src="<?php echo get_theme_file_uri('app/src/images/Blob_1.png') ?>" alt="result card background">
               <div class="card">
                 <div class="card-header">
-                  <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                   <h6>E-Commerce Brand</h6>
                 </div>
                 <div class="card-body">
-                  <img width="25px" src="<?php echo get_theme_file_uri('/app/build/d006e0b5402a9c63611e.png') ?>" alt="Arrow Up Icon">
+                <img width="25px" src="<?php echo get_theme_file_uri('/app/src/icons/triangle.png') ?>" alt="Arrow Up Icon">
                   <p id="percentage-2" class="percentage" data-val="793"></p>
                 </div>
                 <div class="card-footer">
@@ -590,14 +587,14 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <img class="blob-image blob-3" src="<?php echo get_theme_file_uri('/app/build/675b2b2ea154c22b2ded.png') ?>" alt="result card background">
+            <img class="blob-image blob-3" src="<?php echo get_theme_file_uri('app/src/images/Blob_3.png') ?>" alt="result card background">
               <div class="card">
                 <div class="card-header">
-                  <img  src="<?php echo get_theme_file_uri('/app/build/b50749bb3a8d30bc7fe9.png') ?>" alt=" Brand Design Icon">
+                <img  src="<?php echo get_theme_file_uri('/app/src/icons/brand-identity.png') ?>" alt=" Brand Identity Icon">
                   <h6>Local Restaurant</h6>
                 </div>
                 <div class="card-body">
-                  <img width="25px" src="<?php echo get_theme_file_uri('/app/build/d006e0b5402a9c63611e.png') ?>" alt="Arrow Up Icon">
+                <img width="25px" src="<?php echo get_theme_file_uri('/app/src/icons/triangle.png') ?>" alt="Arrow Up Icon">
                   <p id="percentage-3" class="percentage" data-val="650"></p>
                 </div>
                 <div class="card-footer">
@@ -627,14 +624,14 @@
                   <div data-hash="slide-11" class="swiper-slide">
                     <div class="testimonial-card">
                     <div class="testimonial-profile-shot">
-                      <img src="<?php echo get_theme_file_uri('/app/build/08ef55fa35a1fdb64c41.png') ?>" alt="Testimonial Headshot">
+                      <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-gabriel.png') ?>" alt="Testimonial Headshot">
                     </div>
                     <div class="testimonial-quote">
                       <p>
-                      3:5 Creative[s] has been a pleasure to work with. Their team made the process so easy. They
+                      "3:5 Creative[s] has been a pleasure to work with. Their team made the process so easy. They
                       provided great guidance and recommendations to fulfill my expectations for my book cover design.
                       I’m beyond satisfied with the results and service. They have been so patient and pleasant. I will
-                      recommend them to anyone who needs any design work. </p>
+                      recommend them to anyone who needs any design work." </p>
                     </div>
                     <div class="testimonial-name">
                       <p>- Gabriel Lightner</p>
@@ -648,11 +645,11 @@
                       </div>
                       <div class="testimonial-quote">
                         <p>
-                          The total team approach that I have experienced while working with 3:5 Creatives has been
+                          "The total team approach that I have experienced while working with 3:5 Creatives has been
                           smooth, effective, and engaging. They’ve listened to my team and quickly understood what we’re
                           trying to do. But more importantly, 3:5 have creatively developed a communication strategy that
                           not only exceeded our expectations but also helped us expand our original vision for our
-                          product.
+                          product."
                         </p>
                       </div>
                       <div class="testimonial-name">
@@ -697,10 +694,10 @@
                 <div class="swiper-pagination testimonial-pagination"></div>
               </div>
               <div class="swiper-button-next testimonial-swiper-button-next">
-                <img src="<?php echo get_theme_file_uri('/app/build/1aebeb2b8b7825b504f6.svg') ?>" alt="arrow icon">
+                <img src="<?php echo get_theme_file_uri('/app/src/icons/arrow-forward.svg') ?>" alt="arrow icon">
               </div>
               <div class="swiper-button-prev testimonial-swiper-button-prev">
-                <img src="<?php echo get_theme_file_uri('/app/build/28f6dce44676b15371c2.svg') ?>" alt="arrow icon">
+                <img src="<?php echo get_theme_file_uri('/app/src/icons/arrow-back.svg') ?>" alt="arrow icon">
               </div>
             </div>
           </div>
@@ -720,112 +717,112 @@
             <div class="slider">
               <div class="slide-track">
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/09d8b9457e679a3f5b60.png') ?>" class="one-hotel" alt="One Hotel Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/one_hotels.png') ?>" class="one-hotel" alt="One Hotel Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/e786c71c3a69db4a15aa.png') ?>"  alt="Anatomy Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/anatomy.png') ?>"  alt="Anatomy Logo" />
                 </div>
                 <div class="slide">
-                  <img class="bjc" src="<?php echo get_theme_file_uri('/app/build/a0a78f013e4d80ea98b4.png') ?>"  alt="Barnes Jones Consulting Logo" />
+                  <img class="bjc" src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/barnes_jones_consulting.png') ?>"  alt="Barnes Jones Consulting Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/179b536eb1d74a4623c5.png') ?>"  alt="BNI Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/bni.png') ?>"  alt="BNI Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/3c6bf1b24f8be9e22011.svg') ?>"  alt="Makina Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/makina.svg') ?>"  alt="Makina Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/0592f2de12d8d81e0e32.jpeg') ?>" alt="Goldman-Sachs-Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/goldman_sachs.jpeg') ?>" alt="Goldman-Sachs-Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/226c0fd5499edc8d25e2.png') ?>"  alt="Delta Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/delta.png') ?>"  alt="Delta Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/d2b95f4cb55042382528.png') ?>" class="dog_co"  alt="Dog & Co Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/dog_and_co.png') ?>" class="dog_co"  alt="Dog & Co Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/ad296c24ffa463907cfe.png') ?>" class="grit_city"  alt="Grit City Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/grit_city.png') ?>" class="grit_city"  alt="Grit City Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/125696cf67b0f465d5d4.png') ?>"  alt="HAV WTR Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/havwatr.png') ?>"  alt="HAV WTR Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/440c594e93c006aaf61a.png') ?>"  alt="HGTV Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/hgtv.png') ?>"  alt="HGTV Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/a3436d38237fe7625477.png') ?>"  alt="iDigress Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/idigress.png') ?>"  alt="iDigress Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/ddf739ab6c78b66ce279.png') ?>"  alt="Kathy's Kreation Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/kathy_kreation.png') ?>"  alt="Kathy's Kreation Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/e28adc7bb4aca675e304.png') ?>"  alt="Kept Organic Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/kept_O.png') ?>"  alt="Kept Organic Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/ddb161724587c05650c6.svg') ?>"  alt="Microsoft Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/microsoft.svg') ?>"  alt="Microsoft Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/f64aabca6f8c6a50b789.svg ') ?>" alt="Revo Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/revo.svg') ?>" alt="Revo Logo" />
                 </div>
                 <div class="slide">
-                  <img class="tesseract" src="<?php echo get_theme_file_uri('/app/build/787441550bd70a588dc8.png') ?>"  alt="Tesseract Logo" />
+                  <img class="tesseract" src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/tesseract.png') ?>"  alt="Tesseract Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/c552f33735a816d9dffa.png') ?>"  alt="Thryve Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/thryve.png') ?>"  alt="Thryve Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/09d8b9457e679a3f5b60.png') ?>" class="one-hotel" alt="One Hotel Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/one_hotels.png') ?>" class="one-hotel" alt="One Hotel Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/e786c71c3a69db4a15aa.png') ?>"  alt="Anatomy Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/anatomy.png') ?>"  alt="Anatomy Logo" />
                 </div>
                 <div class="slide">
-                  <img class="bjc" src="<?php echo get_theme_file_uri('/app/build/a0a78f013e4d80ea98b4.png') ?>"  alt="Barnes Jones Consulting Logo" />
+                  <img class="bjc" src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/barnes_jones_consulting.png') ?>"  alt="Barnes Jones Consulting Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/179b536eb1d74a4623c5.png') ?>"  alt="BNI Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/bni.png') ?>"  alt="BNI Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/3c6bf1b24f8be9e22011.svg') ?>"  alt="Makina Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/makina.svg') ?>"  alt="Makina Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/0592f2de12d8d81e0e32.jpeg') ?>" alt="Goldman-Sachs-Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/goldman_sachs.jpeg') ?>" alt="Goldman-Sachs-Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/226c0fd5499edc8d25e2.png') ?>"  alt="Delta Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/delta.png') ?>"  alt="Delta Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/d2b95f4cb55042382528.png') ?>" class="dog_co"  alt="Dog & Co Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/dog_and_co.png') ?>" class="dog_co"  alt="Dog & Co Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/ad296c24ffa463907cfe.png') ?>" class="grit_city"  alt="Grit City Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/grit_city.png') ?>" class="grit_city"  alt="Grit City Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/125696cf67b0f465d5d4.png') ?>"  alt="HAV WTR Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/havwatr.png') ?>"  alt="HAV WTR Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/440c594e93c006aaf61a.png') ?>"  alt="HGTV Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/hgtv.png') ?>"  alt="HGTV Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/a3436d38237fe7625477.png') ?>"  alt="iDigress Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/idigress.png') ?>"  alt="iDigress Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/ddf739ab6c78b66ce279.png') ?>"  alt="Kathy's Kreation Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/kathy_kreation.png') ?>"  alt="Kathy's Kreation Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/e28adc7bb4aca675e304.png') ?>"  alt="Kept Organic Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/kept_O.png') ?>"  alt="Kept Organic Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/ddb161724587c05650c6.svg') ?>"  alt="Microsoft Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/microsoft.svg') ?>"  alt="Microsoft Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/f64aabca6f8c6a50b789.svg ') ?>" alt="Revo Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/revo.svg') ?>" alt="Revo Logo" />
                 </div>
                 <div class="slide">
-                  <img class="tesseract" src="<?php echo get_theme_file_uri('/app/build/787441550bd70a588dc8.png') ?>"  alt="Tesseract Logo" />
+                  <img class="tesseract" src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/tesseract.png') ?>"  alt="Tesseract Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/build/c552f33735a816d9dffa.png') ?>"  alt="Thryve Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/thryve.png') ?>"  alt="Thryve Logo" />
                 </div>
               </div>
             </div>

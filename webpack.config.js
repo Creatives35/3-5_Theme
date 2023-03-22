@@ -1,7 +1,6 @@
 const path = require( 'path' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
 const CssMinimizerPlugin = require( 'css-minimizer-webpack-plugin' );
-const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
 
 module.exports = {
 	mode: 'development',
@@ -15,10 +14,6 @@ module.exports = {
 		new MiniCssExtractPlugin( {
 			filename: './css/main.css',
 		} ),
-		new HtmlWebpackPlugin( {
-			template: './app/src/index.html',
-		}
-		),
 	],
 	optimization: {
 		// minification - only performed when mode = production
@@ -42,10 +37,6 @@ module.exports = {
 			{
 				test: /\.(woff|woff2|eot|ttf|otf)$/i,
 				type: 'asset/resource',
-			},
-			{
-				test: /\.pdf$/i,
-				type: 'asset/source',
 			},
 		],
 	},

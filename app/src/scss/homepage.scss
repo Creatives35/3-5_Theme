@@ -74,6 +74,7 @@ body{
 
     &.loaded{
         overflow: visible;
+        overflow-x: hidden;
     }
     @media (min-width: 992px) {
         font-size: 16px;
@@ -250,7 +251,7 @@ div.preloader{
     }
 
     .loader{
-        background-image: url('../logos/3-5-icon.gif');
+        background-image: url('../logos/3-5-logos/3-5-icon.gif');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -273,7 +274,7 @@ section.body-background{
     height: 100%;
     z-index: -1;
     opacity: .1;
-    background-image: url('../images/abstract-blue-geometric-shapes-right-background.jpeg');
+    background-image: url('../images/shape-background.jpeg');
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center center;
@@ -292,7 +293,7 @@ section.second-body-background{
     height: 100%;
     z-index: -1;
     opacity: .1;
-    background-image: url('../images/abstract-blue-geometric-shapes-left-background.jpeg');
+    background-image: url('../images/shape-background-flipped.jpeg');
     background-repeat: repeat-y;
     background-size: cover;
     transition: all 500ms ease-in-out;
@@ -377,7 +378,7 @@ section.home-hero{
                 }
             }
 
-            .landing-page-image{
+            .hero-image{
                 display: none;
             }
         }
@@ -412,7 +413,7 @@ section.home-hero{
                             border-radius: 15px;
                         }
                     }
-                    .landing-page-image{
+                    .hero-image{
                         display: block !important;
                         width: 110%
                     }

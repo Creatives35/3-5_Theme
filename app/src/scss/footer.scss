@@ -22,7 +22,7 @@ footer{
     margin-top: 50px;
     overflow: hidden;
     .footer-container{
-        background-image: url('../images/abstract-blue-geometric-shapes-right-background.jpeg');
+        background-image: url('../images/shape-background.jpeg');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -167,6 +167,7 @@ footer{
                             a{
                                 transition: all 250ms ease-in-out;
                                 img{
+                                    width: 20px;
                                     filter: brightness(0) invert(1);
                                     transition: all 250ms ease-in-out;
                                 }
@@ -237,6 +238,7 @@ footer{
                                 a{
                                     transition: all 250ms ease-in-out;
                                     img{
+                                        width: 20px;
                                         filter: brightness(0) invert(1);
                                         transition: all 250ms ease-in-out;                         
                                    }
