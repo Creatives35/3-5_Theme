@@ -744,7 +744,7 @@
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/grit_city.png') ?>" class="grit_city"  alt="Grit City Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/havwatr.png') ?>"  alt="HAV WTR Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/havwtr.png') ?>"  alt="HAV WTR Logo" />
                 </div>
                 <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/hgtv.png') ?>"  alt="HGTV Logo" />
@@ -798,7 +798,7 @@
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/grit_city.png') ?>" class="grit_city"  alt="Grit City Logo" />
                 </div>
                 <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/havwatr.png') ?>"  alt="HAV WTR Logo" />
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/havwtr.png') ?>"  alt="HAV WTR Logo" />
                 </div>
                 <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/hgtv.png') ?>"  alt="HGTV Logo" />

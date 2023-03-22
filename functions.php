@@ -141,7 +141,6 @@ function creatives_35_scripts() {
 	wp_enqueue_style( 'creatives_35-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'creatives_35-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'creatives_35-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
