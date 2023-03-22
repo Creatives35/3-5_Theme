@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 
+<div class="preloader">
+  <div class="loader"></div>
+</div>
 <section class="hero home-hero ">
         <section class="pop-up">
           <div class="side-menu-overlay"></div>
@@ -42,9 +45,9 @@
               </ul>
             <div class="row align-items-center justify-content-center">
                 <div class="container home-hero-content-container">
-                    <div class="row align-items-center justify-content-center animate__animated animate__zoomIn">
+                    <div class="row align-items-center justify-content-center">
                         <div class="col-sm-12 col-xl-7 home-hero-text">
-                            <h1><span>Transforming</span> Business</h1>
+                            <h1><span>Transforming</span> Businesses</h1>
                             <h3>With <span class="underline">Unparalleled</span> <span class="charter" style="font-weight: 400;">Strategy</span></h3>
                             <br>
                             <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
@@ -57,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="scroll-bar-icon-container animate__animated animate__fadeInDown animate__delay-2s">
+            <div class="scroll-bar-icon-container  animate__fadeInDown animate__delay-2s">
             <img src=<?php echo get_theme_file_uri('/app/src/icons/scroll-bar.svg') ?> alt="scroll-bar-icon">
 
             </div>

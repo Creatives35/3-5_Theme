@@ -1,14 +1,18 @@
 
 ( function animateScrollIcon() {
-	setTimeout( () => {
-		const scrollIcon = document.querySelector( '.scroll-bar-icon-container' );
-		const homeBodySection = document.querySelector( 'section.our-story-our-mission' );
-		scrollIcon.classList.add( 'hovering' );
+	window.addEventListener( 'load', () => {
+		const scrollBarIcon = document.querySelector( '.scroll-bar-icon-container' );
+		scrollBarIcon.classList.add( 'animate__animated' );
+		setTimeout( () => {
+			const scrollIcon = document.querySelector( '.scroll-bar-icon-container' );
+			const homeBodySection = document.querySelector( 'section.our-story-our-mission' );
+			scrollIcon.classList.add( 'hovering' );
 
-		scrollIcon.addEventListener( 'click', () => {
-			homeBodySection.scrollIntoView( { behavior: 'smooth' } );
-		} );
-	}, 2800 );
+			scrollIcon.addEventListener( 'click', () => {
+				homeBodySection.scrollIntoView( { behavior: 'smooth' } );
+			} );
+		}, 2800 );
+	} );
 }() );
 
 ( function navBarAndIconScroll() {

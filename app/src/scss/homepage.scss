@@ -61,8 +61,8 @@ $theme-colors: (
 }
 
 html, body{
-    max-width: 100%;
-    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
 }
 
 body{
@@ -70,6 +70,11 @@ body{
     font-size: 14px;
     font-family: 'Avenir Next', Arial, Helvetica, sans-serif ;
     font-weight: normal;
+    overflow: hidden;
+
+    &.loaded{
+        overflow: visible;
+    }
     @media (min-width: 992px) {
         font-size: 16px;
     }
@@ -227,6 +232,36 @@ img.filter-white{
 @keyframes scroll {
 	0% { transform: translateX(0); }
 	100% { transform: translateX(calc(-250px * 18))}
+}
+
+//First background texture
+div.preloader{
+    background: black;
+    width: 100vw;
+    height: 110vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    transition: all 500ms ease-in-out;
+
+    &.loaded{
+        opacity: 0;
+    }
+
+    .loader{
+        background-image: url('../logos/3-5-icon.gif');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: fixed;
+        top: 50%; 
+        left: 50%;
+        width: 50%;
+        height: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
 }
 
 //First background texture
