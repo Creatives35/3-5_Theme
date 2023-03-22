@@ -1,28 +1,18 @@
 /* eslint-disable no-unused-vars */
-import Swiper, { Navigation, Pagination, HashNavigation, breakpoints } from 'swiper';
-Swiper.use( [ Navigation, Pagination, HashNavigation, breakpoints ] );
+import Swiper, { Navigation, Pagination } from 'swiper';
+Swiper.use( [ Navigation, Pagination ] );
 
 ( function() {
-	const testimonialSwiper = new Swiper( '.testimonial-swiper', {
-		modules: [ Navigation, Pagination, HashNavigation ],
+	return new Swiper( '.testimonial-swiper', {
+		modules: [ Navigation, Pagination ],
 		loop: true,
 		spaceBetween: 100,
-		hashNavigation: {
-			watchState: true,
-		},
 		navigation: {
 			nextEl: '.testimonial-swiper-button-next',
 			prevEl: '.testimonial-swiper-button-prev',
 		},
 		pagination: {
 			el: '.testimonial-pagination',
-		},
-		breakpoints: {
-			992: {
-				hashNavigation: {
-					watchState: false,
-				},
-			},
 		},
 	} );
 }() );
