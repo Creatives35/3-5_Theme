@@ -1,0 +1,304 @@
+$theme-colors: (
+    "primary": #FFD200,
+    "secondary": #294859,
+);
+@import "~bootstrap/scss/bootstrap";
+@import "~swiper/swiper-bundle.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import "~animate.css";
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter\ Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter\ Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNextLTPro-It.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-DemiBold-03.otf');
+    font-style: bold;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNextLTPro-Bold.otf');
+    font-style: bold;
+    font-weight: 600;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    position: relative;
+    font-size: 14px;
+    font-family: 'Avenir Next', Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+    overflow: hidden;
+
+    &.loaded{
+        overflow: visible;
+        overflow-x: hidden;
+    }
+    @media (min-width: 992px) {
+        font-size: 16px;
+    }
+}
+
+a.btn{
+    transition: all 250ms ease-in-out !important;
+    font-weight: 600;
+    padding: 14px 25px 12px 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    @media (min-width: 768px) {
+        font-size: 15px;
+    }
+}
+
+.btn-primary:hover{
+    background-color: #294859;
+    color:white;
+    border: 1px solid #294859
+}
+
+.btn-secondary:hover{
+    background-color: white;
+    color: #294859;
+}
+
+.btn-light{
+    background-color: white;
+    &:hover{
+        color: white;
+    }
+}
+
+.btn-lg{
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Charter', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    span{
+        font-family: 'Satisfy', cursive;
+        font-size: 35px;
+        font-weight: normal;
+    }
+    @media (min-width: 768px) {
+        font-size: 35px;
+        span{
+            font-size: 40px;
+        }
+    }
+    @media (min-width: 992px) {
+        font-size: 49px;
+        span{
+            font-size: 59px;
+        }
+    }
+}
+h2{
+    color: #3D6D6F;
+    font-family: 'Charter', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    span.black{
+        font-family: inherit;
+        color:black;
+        font-size: inherit; 
+    }
+    span.satisfy{
+        font-family: 'Satisfy', cursive;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    @media (min-width: 768px) {
+        font-size: 45px;
+        span.satisfy{
+            font-size: 55px;
+        }
+    }
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+    span.underline{
+        border-bottom: 1px solid white;
+    }
+    span.charter{
+        font-family: 'Charter', 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    @media (min-width: 768px) {
+        font-size: 30px;
+    }
+    @media (min-width: 992px) {
+        font-size: 35px;
+    }
+}
+h4{
+    font-family: 'Charter', 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 17px;
+    color: black;
+    &.sub-header{
+        font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+    @media (min-width: 768px) {
+        font-size: 22px;
+    }
+    
+}
+h5{
+    font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    span.satisfy{
+        font-family: 'Satisfy', cursive;
+    }
+    @media (min-width: 768px) {
+        font-size: 25px;
+    }
+    @media (min-width: 992px) {
+        font-size: 40px;
+    }
+}
+img.filter-white{
+    filter: brightness(0) invert(1);
+}
+@keyframes hover-up-down {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 18))}
+}
+
+//First background texture
+div.preloader{
+    background: black;
+    width: 100vw;
+    height: 110vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    transition: all 500ms ease-in-out;
+
+    &.loaded{
+        opacity: 0;
+    }
+
+    .loader{
+        background-image: url('../logos/3-5-logos/3-5-icon.gif');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: fixed;
+        top: 50%; 
+        left: 50%;
+        width: 50%;
+        height: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
+
+//First background texture
+section.body-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .1;
+    background-image: url('../images/shape-background.jpeg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center center;
+    transition: all 500ms ease-in-out;
+
+    &.hidden{
+        opacity: 0;
+    }
+}
+
+section.second-body-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .1;
+    background-image: url('../images/shape-background-flipped.jpeg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    transition: all 500ms ease-in-out;
+
+    &.hidden{
+        opacity: 0;
+    }
+}

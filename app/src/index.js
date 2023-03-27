@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import * as bootstrap from 'bootstrap';
+import './scss/base.scss'
 import './scss/homepage.scss';
+import './scss/contact.scss';
 import './scss/header.scss';
 import './scss/heroNavigation.scss';
 import './scss/footer.scss';

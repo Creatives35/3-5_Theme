@@ -30,8 +30,9 @@
       <nav id="main-nav" class="navbar navbar-dark bg-body-tertiary fixed-top">
           <div class="container-fluid header-controls-container">
             <div class="header-logo">
-              <a href="<?php echo site_url() ?>" class='header-logo-link'></a>
+              <a href="<?php echo site_url() ?>" class='header-logo-link'>
               <img class='the_header_logo filter-white' src=<?php echo get_theme_file_uri('/app/src/logos/3-5-logos/35-creatives-logo.png') ?> alt="3:5 Creative[s] Logo">
+              </a>
             </div>
             <div class="menu-control">
               <div id="menu-trigger">
