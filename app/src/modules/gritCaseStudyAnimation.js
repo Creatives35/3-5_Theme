@@ -1,15 +1,15 @@
 ( function caseStudyAnimation() {
 	const gritCaseStudySection = document.querySelector( 'section.grit-case-study' );
-	const phoneCaseStudy = document.querySelector( 'section.grit-case-study .right-side' );
+	const dottedLine = document.querySelector( '.dotted-line-container' );
 	const options = {
-		threshold: 1,
+		threshold: .7,
 	};
 	const observer = new IntersectionObserver( ( entries, observer ) => {
 		entries.forEach( ( entry ) => {
 			if ( entry.isIntersecting ) {
 				if ( ! gritCaseStudySection.classList.contains( 'animated' ) ) {
 					gritCaseStudySection.classList.add( 'animated' );
-					phoneCaseStudy.classList.add( 'animate__rotateIn' );
+					dottedLine.classList.add( 'animated' );
 				}
 			}
 		} );

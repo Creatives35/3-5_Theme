@@ -54,6 +54,13 @@ $theme-colors: (
     font-weight: 600;
 }
 
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold-02.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
 *, *::after, *::before{
     box-sizing: border-box;
     padding: 0;

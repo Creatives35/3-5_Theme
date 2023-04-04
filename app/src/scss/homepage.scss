@@ -162,7 +162,7 @@ section.our-story-our-mission{
                 overflow: hidden;
                 position: absolute;
                 top: 30px;
-                background-color: #3D6D6F;
+                background-color: #FFD200;
             }
         }
     }
@@ -175,27 +175,38 @@ section.our-story-our-mission{
         max-width: 600px;  
         margin: 0 auto;
 
-        h4{
-            position: absolute;
-            top: -20px;
-            left: 50px;
-        }
         h2{
             position: absolute;
+            top: -20px;
+            left: 0px;
+            color: #383644;
+            font-size: 30px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        h4{
+            position: absolute;
             top: 10px;
-            color: #3D6D6F;
+            left: 0px;
+            color: #FFD200;
+            font-size: 28px;
+            font-family: Helvetica, Arial, sans-serif;
+            span{
+                font-family: 'Satisfy', cursive;
+                position: static;
+                font-size: 35px;
+            }
         }
         span{
             position: absolute;
             font-family: 'Charter', 'Times New Roman', Times, serif;
             font-style: italic;
-            top: 15px;
-            left: 140px;
+            top: 25px;
+            left: 170px;
             font-size: 16px;
         }
         .our-priorities-container{
             position: relative;
-            margin-top: 100px;
+            margin-top: 120px;
             ::before{
                 display: block;
                 content: "";
@@ -285,12 +296,28 @@ section.our-story-our-mission{
         }
         @media (min-width: 992px) {
             max-width: 650px;
-            h3{
-                top: -30px;
+            h2{
+                text-transform: uppercase;
+                font-size: 48px;
+                left: -30px;
+                top: -60px;
+            }
+            h4{
+                text-transform: uppercase;
+                left: 30px;
+                top: -15px;;
+                font-size: 43px;
+                span{
+                    text-transform: none;
+                    font-size: 50px;
+                }
+            }
+            span{
+                left: 290px;
             }
             .our-priorities-container{
                 .our-priorities{
-                    margin-top: 160px;
+                    margin-top: 145px;
                 }
             }
         }
@@ -347,7 +374,7 @@ section.digital-marketing{
             }
         }
         h4{
-            max-width: 570px;
+            max-width: 500px;
             margin: auto;
             display: none;
             @media (min-width: 992px) {
@@ -430,7 +457,7 @@ section.digital-marketing{
                         img{
                             width: 35px;
                             @media (min-width: 992px) {
-                                width: 40px;
+                                width: 50px;
                             }
                         }
                     }
@@ -882,16 +909,26 @@ section.grit-case-study{
                     display: flex;
                     align-items: center;
                     position: absolute;
-                    width: 50%;
+                    width: 0%;
                     top: 60%;
                     left: 200px;
+                    transition: all 1500ms ease-in-out;
+                    &.animated{
+                        width: 50%;
+                    }
                     @media (min-width: 992px) {
                         top: 68%;
                         left: 380px;
-                        width: 35%;
+                        width: 0%;
+                        &.animated{
+                            width: 35%;
+                        }
                     }
                     @media (min-width: 1200px) {
-                        width: 55%;
+                        width: 0%;
+                        &.animated{
+                            width: 55%;
+                        }
                     }
                     z-index: 5;
                     .dotted-line{
@@ -910,7 +947,6 @@ section.grit-case-study{
             }
 
             .right-side{
-                opacity: 0;
                 @media (max-width: 340px) {
                     display: none
                 }

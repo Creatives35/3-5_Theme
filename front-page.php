@@ -74,8 +74,8 @@
                 <div class="container">
                   <div class="row">
                     <div class="our-story-text col-sm-12 col-xl-7">
-                      <h4>Every Brand Has</h4>
-                      <h2>A Story</h2>
+                      <h2>Every Brand</h2>
+                      <h4>Has A <span>Story</span></h4>
                       <span >"... a narrative connected in authenticity, <br>  which humanized them."</span>
                       <div class="our-priorities-container">
                         <ul class="our-priorities">
@@ -114,8 +114,7 @@
         <section class="digital-marketing">
           <div class="container">
             <div class="row">
-              <h2>Why Choose
-                <span class="black">Us</span>
+              <h2>Why Choose Us
               </h2>
               <h4 class="sub-header">
                 We understand that in today's fast-paced, digital world, standing out can be a challenge.
@@ -475,7 +474,7 @@
                     <div class="dotted-line"></div>
                     <div class="solid-circle"></div>
                   </div>
-                  <div class="col-sm-4 right-side animate__animated">
+                  <div class="col-sm-4 right-side">
                     <div class="image-container">
                       <img  src="<?php echo get_theme_file_uri('app/src/images/grit-city-mobile-mockup.png') ?>"alt="Grit City Mockup">
                     </div>
