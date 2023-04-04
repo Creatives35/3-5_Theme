@@ -15,8 +15,8 @@ function toggleSideMenu() {
 	}
 }
 ( function() {
-	const sideMenuIcon = document.getElementById( 'side-nav-menu-icon' );
+	const sideMenuButton = document.getElementById( 'side-nav-menu-button' );
 	const sideMenuOverLay = document.querySelector( '.hero .pop-up .side-menu-overlay' );
-	sideMenuIcon.addEventListener( 'click', toggleSideMenu );
+	sideMenuButton.addEventListener( 'click', toggleSideMenu );
 	sideMenuOverLay.addEventListener( 'click', toggleSideMenu );
 }() );

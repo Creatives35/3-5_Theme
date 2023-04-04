@@ -4,9 +4,9 @@
         <section class="pop-up">
           <div class="side-menu-overlay"></div>
           <div class="side-menu-pop-up">
-            <div class="side-menu-text-container">
+            <div class="side-menu-text-container text-center">
               <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
-                Case Studies Step Into 3:5 Capablilities
+                Case Studies
               </a>
             </div>
             <div class="side-menu-image-container">
@@ -34,11 +34,6 @@
                   <img src=<?php echo get_theme_file_uri('/app/src/icons/social-media/facebook.svg') ?> alt="Facebook Icon" class="filter-white">
                   </a>
                 </li>
-                <li id="side-nav-menu-icon" class="nav-item">
-                  <a class="nav-link" href="#">
-                  <img src=<?php echo get_theme_file_uri('/app/src/icons/menu-icon.png') ?> alt="Menu Icon" class="filter-white">
-                  </a>
-                </li>
               </ul>
             <div class="row align-items-center justify-content-center">
                 <div class="container home-hero-content-container">
@@ -47,9 +42,14 @@
                             <h1><span>Transforming</span> Businesses</h1>
                             <h3>With <span class="underline">Unparalleled</span> <span class="charter" style="font-weight: 400;">Strategy</span></h3>
                             <br>
+                            <div class="hero-buttons-container">
                             <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
                                 Schedule A Consultation
                             </a>
+                            <a id="side-nav-menu-button" href="#" class="btn btn-lg btn-primary rounded-pill">
+                                See more
+                            </a>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-xl-5 justify-content-end ">
                             <img src="<?php echo get_theme_file_uri('/app/src/images/35_Animated Graphic.gif')?>" alt="Launch your Business Image" class="hero-image">

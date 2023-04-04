@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import * as bootstrap from 'bootstrap';
-import './scss/base.scss'
+import './scss/base.scss';
 import './scss/homepage.scss';
 import './scss/contact.scss';
 import './scss/header.scss';
@@ -13,7 +13,7 @@ import './modules/swiper/testimonialSwiper.js';
 import './modules/headerMenu.js';
 import './modules/footerAnimation.js';
 import './modules/scrollHeader.js';
-import './modules/heroNavigation.js';
+import './modules/heroPopUp.js';
 import './modules/heroNavigationIconAnimation.js';
 import './modules/bodyBackgroundAnimation.js';
 import './modules/digitalMarketingAnimation.js';

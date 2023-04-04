@@ -71,6 +71,25 @@ section.home-hero{
                 h3{
                     text-shadow: 1px 1px 2px black;
                 }
+
+                .hero-buttons-container{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        max-width: max-content;
+                        margin: auto;
+                    }
+                    #side-nav-menu-button{
+                        margin-top: 25px;                        
+                    }
+                    @media (min-width: 992px) {
+                        display: block;
+                        #side-nav-menu-button{
+                            margin-top: 0px; 
+                            margin-left: 15px;                       
+                        }
+                    }
+                }
             }
 
             .hero-image{
