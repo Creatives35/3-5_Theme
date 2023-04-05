@@ -15,10 +15,14 @@
 get_header();
 ?>
 
+<section class="hero"></section>
 <section class="contact-form container">
   <h2 class="contact-form-header text-center">
     Get In Touch With Us
   </h2>
+  <div class="contact-form-inner-container">
+    <?php echo do_shortcode('[wpforms id="16" title="false"]') ?>
+  </div>
 </section>
 
 <?php
