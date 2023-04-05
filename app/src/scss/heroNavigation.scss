@@ -41,9 +41,9 @@ section.hero{
                 transition: all 500ms ease-in-out;
                 opacity: 0;
                 @media (min-width: 992px) {
-                    top: 40%;
+                    top: 50%;
                     left: 10%;
-                    transform: translate(0, 40%);
+                    transform: translate(0 ,-50%);
                 }
                 a{
                     color: white;
@@ -92,6 +92,8 @@ section.hero{
         z-index: 300;
         @media (min-width: 992px) {
             left: 0%;
+            top: 50%;
+            transform: translate(0 ,-50%);
         }
         .nav-item{
             opacity: 0;

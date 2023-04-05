@@ -16,10 +16,10 @@
           <div class="container-fluid main-footer ">
             <div class="container inner-container">
               <div class="row text-container">
-              <div class="col col-5 col-sm-5 col-md-6 col-lg-4 col-xl-2 logo-container">
+              <div class="col col-5 col-sm-5 col-md-6 col-lg-3 logo-container">
                 <img class="logo filter-white" src="<?php echo get_theme_file_uri('/app/src/logos/3-5-logos/35symbol_logo.png') ?>" alt="3:5 Creative[s] Logo" class="35-logo filter-white">
               </div>
-              <div class="col col-6 col-sm-6 col-md-6 col-lg-4 col-xl-2 page-links">
+              <div class="col col-6 col-sm-6 col-md-6 col-lg-2 page-links">
                 <ul>
                   <li><a href="<?php echo site_url()?>" >Home</a></li>
                   <li><a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a></li>
@@ -28,7 +28,7 @@
                   <li><a href="#">Contact</a></li> -->
                 </ul>
               </div>
-              <div class="col col-7 col-sm-7 col-md-6 col-lg-3 col-xl-2 contact-info">
+              <div class="col col-7 col-sm-7 col-md-6 col-lg-3 contact-info">
                 <ul class="contact-list">
                   <li><a href="https://goo.gl/maps/cjXUx89zyfu3feHF8">
                     <div class="left-side">
@@ -71,7 +71,7 @@
                   </a></li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-12 col-lg-12 footer-logos-container">
+              <div class="col-12 col-sm-12 col-lg-4 footer-logos-container">
                   <div class="logos">
                     <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/google_reviews.png') ?>" alt="Google Reviews Logo">
                     <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/bni.png') ?>" alt="BNI Logo">

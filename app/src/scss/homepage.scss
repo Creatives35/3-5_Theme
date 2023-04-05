@@ -4,7 +4,7 @@ section.home-hero{
     width: 100%;
     height: 80vh;
     @media (min-width: 992px) {
-        height: 85vh
+        height: 90vh
     }
     background: url('../images/home-hero.png');
     background-size: cover;
@@ -93,7 +93,7 @@ section.home-hero{
                     @media (min-width: 992px) {
                         justify-content: flex-start;
                         #side-nav-menu-button{
-                            margin-left: 50px;
+                            margin-left: 35px;
                         }
                     }
                 }
@@ -147,7 +147,7 @@ section.home-hero{
 //Section Brand Story Styling
 section.our-story-our-mission{
     position: relative;
-    scroll-margin-top: 160px;
+    scroll-margin-top: 220px;
     transition: all 250ms ease-in-out;
 
     .container-fluid{
