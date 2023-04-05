@@ -46,8 +46,8 @@
                             <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
                                 Schedule A Consultation
                             </a>
-                            <a id="side-nav-menu-button" href="#" class="btn btn-lg btn-primary rounded-pill">
-                                See more
+                            <a id="side-nav-menu-button" class="nav-link" href="#">
+                              <img src=<?php echo get_theme_file_uri('/app/src/icons/menu-icon.png') ?> alt="Menu Icon" class="filter-white">
                             </a>
                             </div>
                         </div>

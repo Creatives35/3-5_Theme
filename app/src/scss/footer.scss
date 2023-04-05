@@ -26,43 +26,9 @@ footer{
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        .mobile-referral-container{
-            background-color: #103652ce;
-            .mobile-referral{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                padding: 15px 0;
-                margin: 0 auto;
-                
-                h4, p{
-                    color: white;
-                }
-    
-                h4{
-                    font-weight: bold;
-                }
-
-                p{
-                    margin-bottom: 0;
-                }
-    
-                a.btn{
-                    font-size: .6rem;
-                    float: right;
-                    @media (min-width: 768px) {
-                        font-size: .8rem;
-                    }
-                }
-                @media (min-width: 992px) {
-                    display: none;
-                }
-            }
-        }
-    
         .main-footer{
             background-color: #131624d3;
-            padding-top: 0px;
+            padding-top: 25px;
             @media (min-width: 768px) {
                 padding-top: 30px;
             }
@@ -70,6 +36,18 @@ footer{
                 padding-top: 50px;
             }
 
+            .inner-container{
+                max-width: 500px;
+                @media (min-width: 992px) {
+                    max-width: 960px;
+                }
+                @media (min-width: 1200px) {
+                    max-width: 1100px;
+                }
+                @media (min-width: 1400px) {
+                    max-width: 1320px;
+                }
+            }
             .text-container{
                 opacity: 0;
                 overflow: hidden;
@@ -86,34 +64,23 @@ footer{
                 padding: 0 10px;
                 display: flex;
                 justify-content: center;
-                img.desktop-logo{
+                order: 1;
+                img.logo{
                     width: 100%;
                     max-width: 150px;
-                    display: none;
+                    display: block;
                     margin: auto;
-                }
-                img.mobile-logo{
-                    width: 100%;
-                    max-width: 250px;
-                    display: block;
-                }
-                @media (min-width: 768px) {
-                    display: block;
-                    margin: 10px 0;
-
-                    img.desktop-logo{
-                        display: block;
-                    }
-    
-                    img.mobile-logo{
-                        display: none;
-                    }
                 }
                 @media (min-width: 992px) {
                     order: 1;
                 }            
             }
             .page-links{
+                order: 3;
+                margin-top: 10px;
+                @media (min-width: 768px) {
+                    margin-top: 20px;
+                }
                 @media (min-width: 992px) {
                     order: 3;
                     display: flex;
@@ -121,8 +88,9 @@ footer{
                 }
                 ul{
                     list-style: none;
-                    line-height: 28px;
-                    padding-left: 15px;
+                    padding-left: 0px;
+                    display: flex;
+                    justify-content: space-evenly;
                     li{
                         text-align: center;
                         @media (min-width: 992px) {
@@ -146,6 +114,7 @@ footer{
             }
 
             .contact-info{
+                order: 2;
                 @media (min-width: 992px) {
                     order: 2;
                 }
@@ -155,29 +124,6 @@ footer{
                     &.contact-list{
                         li{
                             margin-top: 5px;
-                        }
-                    }
-                    &.social-media-mobile{
-                        display: flex;
-                        @media (min-width: 992px) {
-                            display: none;
-                        }
-                        li{
-                            margin: 0 5px;
-                            a{
-                                transition: all 250ms ease-in-out;
-                                img{
-                                    width: 20px;
-                                    filter: brightness(0) invert(1);
-                                    transition: all 250ms ease-in-out;
-                                }
-                                &:hover{
-                                    color: #FFD200;
-                                    img{
-                                        filter: invert(71%) sepia(49%) saturate(810%) hue-rotate(1deg) brightness(120%) contrast(107%);
-                                    }
-                                }
-                            }
                         }
                     }
                     li{
@@ -191,9 +137,13 @@ footer{
                             display: flex;
                             transition: all 250ms ease-in-out;
                             .left-side{
-                                margin-right: 10px;
-                                img{
-                                    transition: all 250ms ease-in-out;
+                                display: none;
+                                @media (min-width: 768px) {
+                                    display: block;
+                                    margin-right: 10px;
+                                    img{
+                                        transition: all 250ms ease-in-out;
+                                    }
                                 }
                             }
                             &:hover{
@@ -209,16 +159,51 @@ footer{
                 }
             }
 
+            .social-media-mobile-container{
+                order: 4;
+                display: block;
+                margin-top: 10px;
+                @media (min-width: 768px) {
+                    margin-top: 20px;
+                }
+                @media (min-width: 992px) {
+                    display: none;
+                }
+                .social-media-mobile-list{
+                    display: flex;
+                    @media (min-width: 768px) {
+                        justify-content: space-between;
+                    }
+                    li{
+                        margin: 0 10px;
+                        @media (min-width: 768px) {
+                            margin: 0;
+                        }
+                        a{
+                            transition: all 250ms ease-in-out;
+                            img{
+                                width: 20px;
+                                filter: brightness(0) invert(1);
+                                transition: all 250ms ease-in-out;
+                            }
+                            &:hover{
+                                color: #FFD200;
+                                img{
+                                    filter: invert(71%) sepia(49%) saturate(810%) hue-rotate(1deg) brightness(120%) contrast(107%);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             .desktop-referral-container{
                 display: none;
                 @media (min-width: 992px) {
                     display: block;
                     order: 4;
                     padding-left: 0px;
-                    margin-top: 15px;;
-                    @media (min-width: 1200px) {
-                        margin-top: 0px;
-                    }
+                    margin-top: 0px;;
                     h6{
                         color: white;
                         font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
@@ -226,31 +211,28 @@ footer{
                         font-size: 19px;
                     }
                     ul.social-media-desktop{
-                        display: none;
-                        @media (min-width: 1200px) {
-                            margin: 20px 0;
-                            display: flex;
-                            justify-content: flex-start;
-                            padding-left: 0;
-                            list-style-type: none;
-                            li{
-                                margin: 0 10px;
-                                a{
-                                    transition: all 250ms ease-in-out;
+                        display: flex;
+                        margin: 20px 0;
+                        display: flex;
+                        justify-content: flex-start;
+                        padding-left: 0;
+                        list-style-type: none;
+                        li{
+                            margin: 0 10px;
+                            a{
+                                transition: all 250ms ease-in-out;
+                                img{
+                                    width: 20px;
+                                    filter: brightness(0) invert(1);
+                                    transition: all 250ms ease-in-out;                         
+                                }
+                                &:hover{
+                                    color: #FFD200;
                                     img{
-                                        width: 20px;
-                                        filter: brightness(0) invert(1);
-                                        transition: all 250ms ease-in-out;                         
-                                   }
-                                    &:hover{
-                                        color: #FFD200;
-                                        img{
-                                            filter: invert(71%) sepia(49%) saturate(810%) hue-rotate(1deg) brightness(120%) contrast(107%);
-                                        }
+                                        filter: invert(71%) sepia(49%) saturate(810%) hue-rotate(1deg) brightness(120%) contrast(107%);
                                     }
                                 }
                             }
-                            
                         }
                     }
                     .buttons-container{
@@ -279,15 +261,6 @@ footer{
 
             .footer-logos-container{
                 display: none;
-                ul.social-media-tablet-horizontal{
-                    display: none;
-                }
-                @media (min-width: 768px) {
-                    width: 100%;
-                    padding: 0 1%;
-                    display: flex;
-                    justify-content: flex-end; 
-                }
                 @media (min-width: 992px) {
                     order: 5;
                     margin-top: 40px;
@@ -296,39 +269,9 @@ footer{
                     div.logos{
                         float:right;
                     }
-                    ul.social-media-tablet-horizontal{
-                        display: flex;
-                        padding-left: 0;
-                        float: left;
-                        list-style-type: none;
-                        li{
-                            width: 25px;
-                            margin: 0 10px;
-                            &:first-child{
-                                margin-left: 0px;
-                            }
-                            a{
-                                transition: all 250ms ease-in-out;
-                                img{
-                                    width: 100%;
-                                    filter: brightness(0) invert(1);
-                                    transition: all 250ms ease-in-out;                         
-                               }
-                                &:hover{
-                                    color: #FFD200;
-                                    img{
-                                        filter: invert(71%) sepia(49%) saturate(810%) hue-rotate(1deg) brightness(120%) contrast(107%);
-                                    }
-                                }
-                            }
-                        }
-                    } 
                 }
                 @media (min-width: 1200px) {
                     margin-top: 5px;
-                    ul.social-media-tablet-horizontal{
-                        display: none;
-                    }
                 }
                 img{
                     margin: 0 5px;
@@ -360,8 +303,14 @@ footer{
             p{
                 margin-bottom: 0;
                 font-size: 11px;
+                span{
+                    display: none;
+                }
                 @media (min-width: 992px) {
                     font-size: 13px;
+                    span{
+                        display: inline;
+                    }
                 }
             }
         }
