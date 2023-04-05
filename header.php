@@ -53,16 +53,16 @@
                     </li>
                     <li 
                       class="fas fa-laptop-house ">
-                      <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a>
+                      <a href="<?php echo site_url( '/wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a>
                     </li>
                     <li 
                       class="fas fa-mail-bulk ">
-                      <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Services</a>
+                      <a href="<?php echo site_url( '/wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Services</a>
                     </li>
-                    <!-- <li
+                    <li
                       class="fas fa-user-check ">
-                      <a href="#">Referral</a>
-                    </li> -->
+                      <a href="<?php echo site_url( '/contact') ?>">Contact</a>
+                    </li>
                   </ul>
                   <div class="social-media-holder">
                     <div class="header-social-icon header-social-icon-0 ladder">
