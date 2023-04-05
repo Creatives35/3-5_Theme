@@ -43,7 +43,7 @@
                             <h3>With <span class="underline">Unparalleled</span> <span class="charter" style="font-weight: 400;">Strategy</span></h3>
                             <br>
                             <div class="hero-buttons-container">
-                            <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
+                            <a href="<?php echo site_url( '/contact') ?>" class="btn btn-lg btn-primary rounded-pill">
                                 Schedule A Consultation
                             </a>
                             <a id="side-nav-menu-button" class="nav-link" href="#">
@@ -179,7 +179,7 @@
             </div>
             <div class="row button-container">
               <div class="col">
-                <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-primary rounded-pill">
+                <a href="<?php echo site_url( '/contact') ?>" class="btn btn-lg btn-primary rounded-pill">
                   Drive Traffic, Increase Sales
                 </a>
               </div>
@@ -604,7 +604,7 @@
           </div>
         </div>
         <div class="button-container">
-          <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn btn-secondary rounded-pill">
+          <a href="<?php echo site_url( '/contact') ?>" class="btn btn-lg btn btn-secondary rounded-pill">
             Let's Talk
           </a>
         </div>
@@ -827,7 +827,7 @@
             </div>
           </div>
           <div class="button-container">
-            <a href="https://calendly.com/3-5creativesllc/one-on-one-with-curtis" class="btn btn-lg btn-secondary rounded-pill">
+            <a href="<?php echo site_url( '/contact') ?>" class="btn btn-lg btn-secondary rounded-pill">
               Request A Quote Now
             </a>
           </div>

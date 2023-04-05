@@ -17,22 +17,5 @@ section.contact-form{
     .contact-form-inner-container{
         width: 90%;
         margin: auto;
-
-        #wpforms-submit-16{
-            background-color:#FFD200 !important;
-            color: #294859 !important;
-            width: 150px;
-            transition: all 250ms ease-in-out !important;
-            &:hover{
-                background-color: #294859 !important;
-                color:white!important;
-                border: 1px solid #294859!important;
-            }
-        }
-
-        #wpforms-form-16 > div.wpforms-submit-container{
-            display: flex;
-            justify-content: center;
-        }
     }
 }
