@@ -22,7 +22,10 @@
 
 <body>
 <div class="preloader">
-  <div class="loader"></div>
+  <div class="loader">
+    <img src="<?php echo get_theme_file_uri('/app/src/icons/gear.png')?>" alt="gear icon" class="gear-icon filter-white" id="gear-one">
+    <img src="<?php echo get_theme_file_uri('/app/src/icons/gear.png')?>" alt="gear icon" class="gear-icon filter-white" id="gear-two">
+  </div>
 </div>
 <section class="body-background"></section>
 <section class="second-body-background hidden"></section>

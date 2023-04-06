@@ -79,13 +79,13 @@
                   </div>
               </div>
             </div>
-            <div class="row footer-tagline">
+            </div>
+          </div>
+          <div class="row footer-tagline">
               <p>
                 © 2023 Web Design & Development 3:5 Creative[s]. <span>Engage on Social Media and Brand Beautifully.</span> 
 			        </p>
             </div>
-            </div>
-          </div>
         </div>
       </footer>
 

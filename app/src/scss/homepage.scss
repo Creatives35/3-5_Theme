@@ -90,7 +90,7 @@ section.home-hero{
                             }
                         }               
                     }
-                    @media (min-width: 992px) {
+                    @media (min-width: 1200px) {
                         justify-content: flex-start;
                         #side-nav-menu-button{
                             margin-left: 35px;
@@ -527,10 +527,11 @@ section.our-mission{
             }
 
             p{
-                font-size: 17px;
+                font-size: 14px;
                 padding-left: 10px;
                 @media (min-width: 992px) {
                     line-height: 30px;
+                    font-size: 17px;
                 }
                 b{
                     font-weight: 500;
@@ -558,7 +559,7 @@ section.our-services{
             padding: 90px 25px 0 25px;
         }
         @media (min-width: 992px) {
-            margin-top: 150px;
+            margin-top: 200px;
             padding: 0; 
             width: 80%;
         }
@@ -572,8 +573,7 @@ section.our-services{
                 top: -30px;
             }
             @media (min-width: 992px) {
-                left: 60px;
-                transform: translateX(0%);
+                top: -120px;
             }
             h2{
                 text-align: center;
@@ -581,9 +581,7 @@ section.our-services{
                 background-color: white;
                 width: 100%;
                 margin-right: 0px;
-    
                 @media (min-width: 992px) {
-                    text-align: left;
                     width: max-content;
                 }
             }
@@ -592,16 +590,15 @@ section.our-services{
                 color: black;
                 text-align: center;
                 font-family: 'Charter', 'Times New Roman', Times, serif;
-
                 &.desktop-sub{
                     display: none;
                 }
-
                 @media (min-width: 992px) {
                     &.desktop-sub{
                         font-size: 22px;                
                         display: block;
                         width: 100%;
+                        text-align: center;
                         background-color: white;
                     }
                 }

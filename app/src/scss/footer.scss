@@ -21,13 +21,13 @@
 footer{
     margin-top: 50px;
     overflow: hidden;
+    background-image: url('../images/shape-background.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     .footer-container{
-        background-image: url('../images/shape-background.jpeg');
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
+        background-color: #131624d3;
         .main-footer{
-            background-color: #131624d3;
             padding-top: 25px;
             @media (min-width: 768px) {
                 padding-top: 30px;
@@ -307,7 +307,10 @@ footer{
             text-align: center;
             color: white;
             margin-top: 15px;
-            padding: 10px 0;
+            padding: 15px 0;
+            @media (min-width: 992px) {
+                padding: 20px 0;
+            }
             border-top: 1px solid white;
             p{
                 margin-bottom: 0;
@@ -316,7 +319,7 @@ footer{
                     display: none;
                 }
                 @media (min-width: 992px) {
-                    font-size: 13px;
+                    font-size: 12px;
                     span{
                         display: inline;
                     }
