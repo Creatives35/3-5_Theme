@@ -5,12 +5,12 @@
           <div class="side-menu-overlay"></div>
           <div class="side-menu-pop-up">
             <div class="side-menu-text-container text-center">
-              <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
+              <a target="_blank" href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
                 Case Studies
               </a>
             </div>
             <div class="side-menu-image-container">
-            <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
+            <a target="_blank" href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
                 <img src=<?php echo get_theme_file_uri('/app/src/images/case-studies.png') ?> alt="3:5 Capablilities">
               </a>
             </div>
@@ -80,8 +80,8 @@
                       <div class="our-priorities-container">
                         <ul class="our-priorities">
                           <li>
-                            A narrative connected to authenticity, which humanizes them.
-                          </li>
+
+                        </li>
                           <li>
                             Our aim with every project is to <span>showcase</span> your values with a sense of <b class="charter-italic">emotional intelligence</b> and <b>cultural awareness.</b>
                           </li>
@@ -446,7 +446,7 @@
                   </div>
                 </div>
                 <div class="button-container">
-                  <a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>" class="btn btn-lg btn-secondary rounded-pill">
+                  <a target="_blank" href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>" class="btn btn-lg btn-secondary rounded-pill">
                     View Case Studies
                   </a>
                 </div>

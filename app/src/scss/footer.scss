@@ -67,11 +67,12 @@ footer{
                 order: 1;
                 img.logo{
                     width: 100%;
-                    max-width: 150px;
+                    max-width: 130px;
                     display: block;
                     margin: auto;
                 }
                 @media (min-width: 992px) {
+                    margin: 0px 0 20px 0;
                     order: 1;
                 }            
             }
