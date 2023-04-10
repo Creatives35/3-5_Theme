@@ -129,6 +129,9 @@ footer{
                 ul{
                     list-style-type: none;
                     line-height: 28px;
+                    @media (min-width: 992px) {
+                        padding-left: 55px;
+                    }
                     &.contact-list{
                         li{
                             margin-top: 5px;
