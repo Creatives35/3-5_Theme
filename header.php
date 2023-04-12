@@ -56,11 +56,11 @@
                     </li>
                     <li 
                       class="fas fa-laptop-house ">
-                      <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a>
+                      <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">Work</a>
                     </li>
                     <li 
                       class="fas fa-mail-bulk ">
-                      <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Services</a>
+                      <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">Services</a>
                     </li>
                     <li
                       class="fas fa-user-check ">

@@ -21,9 +21,9 @@
               </div>
               <div class="col col-6 col-sm-6 col-md-6 col-lg-2 page-links">
                 <ul>
-                  <li><a href="<?php echo site_url()?>" >Home</a></li>
-                  <li><a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Work</a></li>
-                  <li><a href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">Services</a></li>
+                  <li><a target="_blank" href="<?php echo site_url()?>" >Home</a></li>
+                  <li><a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">Work</a></li>
+                  <li><a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">Services</a></li>
                   <!-- <li><a href="#">Our Stories</a></li>
                   <li><a href="#">Contact</a></li> -->
                 </ul>

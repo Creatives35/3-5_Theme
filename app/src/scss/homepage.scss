@@ -1354,7 +1354,7 @@ section.partnering-innovation{
                 align-items: center;
                 width: calc(200px * 38);
                 @media (min-width: 992px) {
-                    width: calc(250px * 38);
+                    width: calc(250px * 38); 
                 }
             }
             .slide {
@@ -1386,6 +1386,9 @@ section.partnering-innovation{
                     &.tesseract{
                         width: 150px;
                     }
+                    &.mes-vodka{
+                        width: 90px;
+                    }
 
                     @media (min-width: 992px) {
                         width: 150px;
@@ -1405,6 +1408,9 @@ section.partnering-innovation{
                         }
                         &.tesseract{
                             width: 200px;
+                        }
+                        &.mes-vodka{
+                            width: 110px;
                         }
                     }
                 }

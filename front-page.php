@@ -5,14 +5,14 @@
           <div class="side-menu-overlay"></div>
           <div class="side-menu-pop-up">
             <div class="side-menu-text-container text-center">
-              <a target="_blank" href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
+              <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">
                 Case Studies
               </a>
             </div>
             <div class="side-menu-image-container">
-            <a target="_blank" href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>">
+            <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">
                 <img src=<?php echo get_theme_file_uri('/app/src/images/case-studies.png') ?> alt="3:5 Capablilities">
-              </a>
+            </a>
             </div>
           </div>
         </section>
@@ -731,6 +731,9 @@
             <div class="slider">
               <div class="slide-track">
                 <div class="slide">
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/mes-vodka.png') ?>" class="mes-vodka"  alt="Mes Vodka Logo" />
+                </div> 
+                <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/one_hotels.png') ?>" class="one-hotel" alt="One Hotel Logo" />
                 </div>
                 <div class="slide">
@@ -744,9 +747,6 @@
                 </div>
                 <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/makina.svg') ?>"  alt="Makina Logo" />
-                </div>
-                <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/goldman_sachs.jpeg') ?>" alt="Goldman-Sachs-Logo" />
                 </div>
                 <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/delta.png') ?>"  alt="Delta Logo" />
@@ -785,6 +785,9 @@
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/thryve.png') ?>"  alt="Thryve Logo" />
                 </div>
                 <div class="slide">
+                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/mes-vodka.png') ?>" class="mes-vodka" alt="Mes Vodka Logo" />
+                </div>
+                <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/one_hotels.png') ?>" class="one-hotel" alt="One Hotel Logo" />
                 </div>
                 <div class="slide">
@@ -798,9 +801,6 @@
                 </div>
                 <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/makina.svg') ?>"  alt="Makina Logo" />
-                </div>
-                <div class="slide">
-                  <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/goldman_sachs.jpeg') ?>" alt="Goldman-Sachs-Logo" />
                 </div>
                 <div class="slide">
                   <img src="<?php echo get_theme_file_uri('/app/src/logos/company-logos/delta.png') ?>"  alt="Delta Logo" />
