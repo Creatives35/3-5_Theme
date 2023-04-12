@@ -616,24 +616,7 @@
             <div class="row testimonial-swiper-container">
               <div class="swiper testimonial-swiper">
                 <div class="swiper-wrapper">
-                  <div data-hash="slide-11" class="swiper-slide">
-                    <div class="testimonial-card">
-                    <div class="testimonial-profile-shot">
-                      <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-gabriel.png') ?>" alt="Testimonial Headshot">
-                    </div>
-                    <div class="testimonial-quote">
-                      <p>
-                      "3:5 Creative[s] has been a pleasure to work with. Their team made the process so easy. They
-                      provided great guidance and recommendations to fulfill my expectations for my book cover design.
-                      I’m beyond satisfied with the results and service. They have been so patient and pleasant. I will
-                      recommend them to anyone who needs any design work." </p>
-                    </div>
-                    <div class="testimonial-name">
-                      <p>- Gabriel Lightner</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div data-hash="slide-12" class="swiper-slide">
+                <div data-hash="slide-11" class="swiper-slide">
                     <div class="testimonial-card">
                     <div class="testimonial-profile-shot">
                       <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-fiori.png') ?>" alt="Testimonial Headshot">
@@ -650,7 +633,22 @@
                     <div class="testimonial-name">
                       <p>- Fiori Gebrehiwot</p>
                     </div>
+                    </div>
                   </div>
+                  <div data-hash="slide-12" class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="testimonial-profile-shot">
+                      <img src="<?php echo get_theme_file_uri('app/src/images/testimonial-sean.png') ?>" alt="Testimonial Headshot">
+                      </div>
+                      <div class="testimonial-quote">
+                        <p>
+                        “The team at 3:5 Creatives helped us skyrocket our online presence and drive real business growth. We couldn’t be happier with the results!”
+                        </p>
+                      </div>
+                      <div class="testimonial-name">
+                        <p>- Sean Wright</p>
+                      </div>
+                    </div>
                   </div>
                   <div data-hash="slide-13" class="swiper-slide">
                     <div class="testimonial-card">
@@ -673,6 +671,23 @@
                   </div>
                   <div data-hash="slide-14" class="swiper-slide">
                     <div class="testimonial-card">
+                    <div class="testimonial-profile-shot">
+                      <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-gabriel.png') ?>" alt="Testimonial Headshot">
+                    </div>
+                    <div class="testimonial-quote">
+                      <p>
+                      "3:5 Creative[s] has been a pleasure to work with. Their team made the process so easy. They
+                      provided great guidance and recommendations to fulfill my expectations for my book cover design.
+                      I’m beyond satisfied with the results and service. They have been so patient and pleasant. I will
+                      recommend them to anyone who needs any design work." </p>
+                    </div>
+                    <div class="testimonial-name">
+                      <p>- Gabriel Lightner</p>
+                    </div>
+                    </div>
+                  </div>
+                  <div data-hash="slide-15" class="swiper-slide">
+                    <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
                       <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-andrew.png') ?>" alt="Testimonial Headshot">
                       </div>
@@ -686,21 +701,6 @@
                       </div>
                       <div class="testimonial-name">
                         <p>- Andrew Forsthoefel  </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-hash="slide-15" class="swiper-slide">
-                    <div class="testimonial-card">
-                      <div class="testimonial-profile-shot">
-                      <img src="<?php echo get_theme_file_uri('app/src/images/testimonial-sean.png') ?>" alt="Testimonial Headshot">
-                      </div>
-                      <div class="testimonial-quote">
-                        <p>
-                        “The team at 3:5 Creatives helped us skyrocket our online presence and drive real business growth. We couldn’t be happier with the results!”
-                        </p>
-                      </div>
-                      <div class="testimonial-name">
-                        <p>- Sean Wright</p>
                       </div>
                     </div>
                   </div>
