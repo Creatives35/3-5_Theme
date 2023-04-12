@@ -117,11 +117,7 @@
               <h2>Why Choose Us
               </h2>
               <h4 class="sub-header">
-                We understand that in today's fast-paced, digital world, standing out can be a challenge.
-                <br>
-                <span>That's</span>
-                 why we're here.
-              </h4>
+                We understand that in today's fast-paced world standing out can be a challenge.</h4>
             </div>
             <div class="row marketing-icons-container-mobile">
               <div class="col marketing-icon">
@@ -639,6 +635,25 @@
                   </div>
                   <div data-hash="slide-12" class="swiper-slide">
                     <div class="testimonial-card">
+                    <div class="testimonial-profile-shot">
+                      <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-fiori.png') ?>" alt="Testimonial Headshot">
+                    </div>
+                    <div class="testimonial-quote">
+                      <p>
+                      "The 3:5 Creative team represents some of the highest levels of customer service I’ve ever
+                      experienced. They’re incredibly professional, detail oriented, and extremely talented at what they
+                      do. I appreciated how mindful they were of our vision, our story, and our product when developing
+                      our brand identity. I felt they went the extra mile at every stage of the process and the end
+                      result was brilliant! I look forward to collaborating with them in the near future!" 
+                      </p>
+                    </div>
+                    <div class="testimonial-name">
+                      <p>- Fiori Gebrehiwot</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div data-hash="slide-13" class="swiper-slide">
+                    <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
                       <img src="<?php echo get_theme_file_uri('app/src/images/testimonial-tim.png') ?>" alt="Testimonial Headshot">
                       </div>
@@ -656,7 +671,7 @@
                       </div>
                     </div>
                   </div>
-                  <div data-hash="slide-13" class="swiper-slide">
+                  <div data-hash="slide-14" class="swiper-slide">
                     <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
                       <img src="<?php echo get_theme_file_uri('/app/src/images/testimonial-andrew.png') ?>" alt="Testimonial Headshot">
@@ -674,7 +689,7 @@
                       </div>
                     </div>
                   </div>
-                  <div data-hash="slide-14" class="swiper-slide">
+                  <div data-hash="slide-15" class="swiper-slide">
                     <div class="testimonial-card">
                       <div class="testimonial-profile-shot">
                       <img src="<?php echo get_theme_file_uri('app/src/images/testimonial-sean.png') ?>" alt="Testimonial Headshot">
