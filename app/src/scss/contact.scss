@@ -1,18 +1,74 @@
-section.contact-form{
-    border: 1px solid #294859;
-    border-radius: 15px;
-    width: 90%;
-    margin-top: 90px;
-    padding: 25px 10px;
-    @media screen and (min-width: 768px) {
-        margin-top: 120px;
-    }
-    h2{
-        margin-top: 20px;
-    }
+section.contact-form {
+  //   border: 1px solid #294859;
+  //   border-radius: 15px;
+  //   padding: 25px 10px;
+  background-color: white;
 
-    .contact-form-inner-container{
-        width: 90%;
-        margin: auto;
+  /* Readjust the form width for smaller devices */
+  @media only screen and (max-width: 600px) {
+    .wpforms-container.wpf-center {
+      /* Reset the width for devices under 600px */
+      max-width: unset !important;
+      width: auto !important;
     }
+  }
+  h2 {
+    color: black;
+  }
+  div.wpforms-container-full textarea,
+  div.wpforms-container-full input {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-page-container {
+    display: grid;
+    grid-template-columns: 38% 52% 10%;
+
+    div {
+      background-repeat: no-repeat;
+    }
+  }
+
+  .left-column {
+    grid-column: 1;
+    // background-color: aqua;
+    background-image: url("../images/left-column-bg.webp");
+    background-size: cover;
+    background-position-y: 50px;
+  }
+
+  .middle-column {
+    grid-column: 2;
+  }
+
+  .right-column {
+    grid-column: 3;
+    // background-color: crimson;
+    background-image: url("../images/right-column-bg.webp");
+    background-size: cover;
+  }
+}
+.contact-page-container {
+  // background-image: url("../images/cropped-contact-pg-background.png");
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: 100%;
+  margin-bottom: -50px;
+}
+
+.wpforms-container .wpforms-field {
+  display: flex;
+  justify-content: center;
+}
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px !important;
+}
+
+.contact-form-header {
+  margin-top: 92px;
+  padding-top: 30px;
 }

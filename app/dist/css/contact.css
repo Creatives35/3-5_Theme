@@ -1,0 +1,24 @@
+section.contact-form {
+  margin-top: 90px;
+  padding-left: 20%;
+}
+section.contact-form h2 {
+  color: black;
+}
+section.contact-form div.wpforms-container-full textarea {
+  max-width: 60%;
+}
+@media screen and (min-width: 768px) {
+  section.contact-form h2 {
+    margin-top: 20px;
+  }
+}
+
+.contact-page-container {
+  background-image: url("../images/contact-pg-background.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+/*# sourceMappingURL=contact.css.map */
