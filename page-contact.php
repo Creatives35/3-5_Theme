@@ -24,7 +24,7 @@ get_header();
         </h2>
         <div class="contact-form-inner-container">
 
-            <?php echo do_shortcode('[wpforms id="16" title="false"]') ?>
+            <?php echo do_shortcode('[wpforms id="34" title="false"]') ?>
         </div>
 
     </section>

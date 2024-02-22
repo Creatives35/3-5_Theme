@@ -5,12 +5,12 @@
         <div class="side-menu-overlay"></div>
         <div class="side-menu-pop-up">
             <div class="side-menu-text-container text-center">
-                <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">
+                <a target="_blank" href="https://35creatives.com/wp-content/uploads/2023/05/35_Capabilities.pdf">
                     Case Studies
                 </a>
             </div>
             <div class="side-menu-image-container">
-                <a target="_blank" href="<?php echo site_url( '/wp-content/uploads/2023/04/Capabilites_Deck.pdf') ?>">
+                <a target="_blank" href="https://35creatives.com/wp-content/uploads/2023/05/35_Capabilities.pdf">
                     <img src=<?php echo get_theme_file_uri('/app/src/images/case-studies.png') ?>
                         alt="3:5 Capablilities">
                 </a>
@@ -48,8 +48,8 @@
                                 style="font-weight: 400;">Strategy</span></h3>
                         <br>
                         <div class="hero-buttons-container">
-                            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2iDU1cDSeA7BifQFuq7AsNSZR7fVb3_RjuaFMHAclNgDLwrDdBALP4Q2UaXkDz3p3muFHDrkQ5?pli=1"
-                                class="btn btn-lg btn-primary rounded-pill" target="_blank" rel="noopener noreferrer">
+                            <a href="<?php echo site_url( '/contact') ?>" class="btn btn-lg btn-primary rounded-pill"
+                                target="_blank" rel="noopener noreferrer">
                                 Schedule A Consultation
                             </a>
                             <a id="side-nav-menu-button" class="nav-link" href="#">
@@ -477,7 +477,7 @@
                 </div>
             </div>
             <div class="button-container">
-                <a target="_blank" href="<?php echo site_url( 'wp-content/uploads/2023/03/Capabilites_Deck.pdf') ?>"
+                <a target="_blank" href="https://35creatives.com/wp-content/uploads/2023/05/35_Capabilities.pdf"
                     class="btn btn-lg btn-secondary rounded-pill">
                     View Case Studies
                 </a>
